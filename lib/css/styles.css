@@ -113,6 +113,7 @@ h3 + ul {
 }
 .site {
   margin: 0 auto;
+  background: red;
 }
 .content {
   min-height: 30em;
@@ -147,6 +148,12 @@ img {
 }
 .overlay:after {
   clear: both;
+}
+.market__data {
+  background: green;
+}
+.attribution__magic {
+  background: blue;
 }
 @media only screen and (min-width: 40em) {
   header.main {
