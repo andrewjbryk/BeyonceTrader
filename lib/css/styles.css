@@ -79,10 +79,10 @@ a {
 a:link,
 a:visited,
 a:active {
-  color: #b21455;
+  color: #555555;
 }
 a:hover {
-  color: #ea4287;
+  color: #888888;
 }
 h3 + ul {
   margin-bottom: 1em;
@@ -100,11 +100,11 @@ h3 + ul {
   box-sizing: border-box;
 }
 ::selection {
-  background: #b21455;
+  background: #555555;
   /* Safari */
 }
 ::-moz-selection {
-  background: #b21455;
+  background: #555555;
   /* Firefox */
 }
 .container {
@@ -113,7 +113,10 @@ h3 + ul {
 }
 .site {
   margin: 0 auto;
-  background: red;
+  padding: 2em 0;
+}
+.site img {
+  width: 100%;
 }
 .content {
   min-height: 30em;
@@ -149,11 +152,26 @@ img {
 .overlay:after {
   clear: both;
 }
+.information__panel {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+.information__panel li {
+  padding: 0 2em;
+}
 .market__data {
-  background: green;
+  font-size: 125%;
+}
+.market__data .great {
+  color: #94e515;
+}
+.market__data .shit {
+  color: #f25100;
 }
 .attribution__magic {
-  background: blue;
+  text-align: right;
 }
 @media only screen and (min-width: 40em) {
   header.main {

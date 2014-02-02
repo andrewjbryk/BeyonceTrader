@@ -15,21 +15,40 @@
 			function welcomeKO() {
 				var self = this;
 				
+				function getRandom(min, max){
+					return Math.floor((Math.random()*max)+min);
+				}
+				
+				
+				self.selectedBeyonce = ko.observable();
+				
+				
 				self.beyonce = [
 					{
 						"bound" : -100,
-						"nickname" : "shit"
+						"fake" : -128,
+						"nickname" : "shit",
+						"pic" : "/lib/img/shit.gif"
 					},
 					{
 						"bound" : 0,
-						"nickname" : "okay"
+						"fake" : 25,
+						"nickname" : "okay",
+						"pic" : "/lib/img/okay.gif"
 					},
 					{
 						"bound" : 100,
-						"nickname" : "great"
+						"fake" : 253,
+						"nickname" : "great",
+						"pic" : "/lib/img/great.gif"
 					}
 					
 				]
+				
+				var number = getRandom(self.beyonce[0].bound-10, self.beyonce[2].bound+100);
+				
+				self.currentMarket = ko.observable(number);
+				
 			}
 			return {
 				activate: function () {

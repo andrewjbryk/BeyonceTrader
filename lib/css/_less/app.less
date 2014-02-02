@@ -32,7 +32,10 @@ body {
 }
 .site {
 	margin: 0 auto;
-	background: red;
+	padding: 2em 0;
+	img {
+		width: 100%;
+	}
 }
 .content {
 	min-height: 30em;
@@ -52,9 +55,24 @@ img {
 	padding: 1.5em 0 3em;
 	height: 100%;
 }
+.information__panel {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	li {
+		padding: 0 2em;
+	}
+}
 .market__data {
-	background: green;
+	font-size: @bump;
+	.great {
+		color: #94e515;
+	}
+	.shit {
+		color: #f25100;
+	}
 }
 .attribution__magic {
-	background: blue;
+	text-align: right;
 }

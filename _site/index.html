@@ -15,19 +15,26 @@
 		
 </head>
 <body>
+	<div class="control__panel">
+		<select data-bind="options: beyonce, optionsText: 'nickname', value: selectedBeyonce"></select>
+	</div>
+	
 	<div class="site">
-		<img src="beyonce.jpg">
 		
-		<!-- ko foreach: beyonce -->
-		<span data-bind="text: nickname"></span>
+		
+		
+		<!-- ko if: selectedBeyonce -->
+		<img data-bind="attr: {src: selectedBeyonce().pic}" />
+		
 		<!-- /ko -->
-		
+	
 	</div>
 
-	<ul class="grid">
+	<ul class="grid information__panel">
 		<li class="half">
 			<article class="market__data">
-				Yay
+				<h3 data-bind="text: selectedBeyonce().nickname"></h3>
+				<h1 data-bind="text: selectedBeyonce().fake, attr: {class: selectedBeyonce().nickname}"></h1>
 			</article>
 		</li>
 		<li class="half">
