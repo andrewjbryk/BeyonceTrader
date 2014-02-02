@@ -1,3 +1,4 @@
+@import "ionicons.css";
 /* -- FLUID GRID STYLES -- */
 .grid {
   margin-bottom: 40px;
@@ -153,6 +154,28 @@ img {
 .overlay:after {
   clear: both;
 }
+.introduction__quote {
+  text-align: right;
+}
+.introduction__quote i {
+  font-size: 2.5em;
+  padding: .5em;
+}
+.quote__popover {
+  background: #555555;
+  color: white;
+  position: absolute;
+  top: 1em;
+  right: 5em;
+  padding: .25em 1em;
+}
+.quote__popover p {
+  line-height: 1.15;
+}
+.quote__popover p:last-child {
+  font-size: .75em;
+  text-transform: uppercase;
+}
 .information__panel {
   position: fixed;
   bottom: 0;
@@ -208,15 +231,8 @@ img {
     font-size: .85em;
   }
 }
-@media only screen and (min-width: 30em) and (max-width: 70em) {
-  .grid li {
-    width: 45%;
-    margin-bottom: 4%;
-  }
-}
 @media only screen and (max-width: 30em) {
-  .grid li,
-  .grid.posts li {
+  .grid li.half {
     width: 100%;
     padding: 1em;
     margin-bottom: 5%;
