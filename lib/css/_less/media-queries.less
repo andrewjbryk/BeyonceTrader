@@ -1,5 +1,20 @@
 // larger than phone
 @media only screen and(min-width: 40em) {
+	.site {
+		margin: auto;
+		height: 25em;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		img {
+			margin-top: -1em;
+		}
+	}
+	.mobile__only {
+		display: none;
+	}
 	.introduction__quote {
 		text-align: right;
 		i {
@@ -25,7 +40,10 @@
 			}
 		}
 	}
-	
+	.information__panel {
+		position: fixed;
+		bottom: -1em;
+	}
 	footer {
 		p {
 			font-size: 95%;
@@ -62,23 +80,18 @@
 	}
 }
 @media only screen and (max-width: 40em) {
-	header.main {
-		background-position: center bottom;
-	}
 	.site {
 		padding: 1em;
 		width: 100%;
 		font-size: .85em;
 	}
-	header.main {
-		font-size: .75em;
-		.overlay {
-			padding: 1.5em 0 4em;
-		}
-	}	
-	.container > section {
+	.introduction__quote i, .grid:first-child {
+		display: none;
 	}
-	
+	.introduction__quote {
+		text-align: center;
+		padding: 1em 1em 0;
+	}
 }
 @media print {
 	@page { margin: 0.5in; }

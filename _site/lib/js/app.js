@@ -71,6 +71,10 @@
 				$("#masthead").fitText(0.55);	
 			}     
 			
+			function beyPopover() {
+				//agh
+			}
+			
 			          
 			return {
 				setup: function () {
