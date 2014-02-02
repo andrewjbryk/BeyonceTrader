@@ -26,19 +26,19 @@
 				self.beyonce = [
 					{
 						"bound" : -100,
-						"fake" : -128,
+						"fake" : "-128 (-0.94%)",
 						"nickname" : "shit",
 						"pic" : "/lib/img/shit.gif"
 					},
 					{
 						"bound" : 0,
-						"fake" : 25,
+						"fake" : "25 (+0.01%)",
 						"nickname" : "okay",
 						"pic" : "/lib/img/okay.gif"
 					},
 					{
 						"bound" : 100,
-						"fake" : 253,
+						"fake" : "253 (+0.85%)",
 						"nickname" : "great",
 						"pic" : "/lib/img/great.gif"
 					}

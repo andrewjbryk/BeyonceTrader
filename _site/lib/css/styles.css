@@ -161,6 +161,12 @@ img {
 .information__panel li {
   padding: 0 2em;
 }
+.control__panel {
+  position: absolute;
+  border: 10px solid red;
+  top: 100px;
+  left: 0px;
+}
 .market__data {
   font-size: 125%;
 }
@@ -173,16 +179,10 @@ img {
 .attribution__magic {
   text-align: right;
 }
+.attribution__giphy {
+  font-size: .75em;
+}
 @media only screen and (min-width: 40em) {
-  header.main {
-    background-position: center bottom;
-  }
-  header.main .logo {
-    padding: 1em 0 0;
-  }
-  .container > section {
-    padding: 2em 0;
-  }
   footer p {
     font-size: 95%;
   }
@@ -246,8 +246,5 @@ img {
   }
   body {
     font-size: 12pt;
-  }
-  header.main h1 {
-    font-size: 48px !important;
   }
 }
