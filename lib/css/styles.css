@@ -44,12 +44,14 @@ h6 {
 }
 h1 {
   font-size: 2.5em;
-  font-style: italic;
+  font-style: normal;
   text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: -0.05em;
 }
 h2 {
   font-size: 1.75em;
-  font-style: italic;
+  font-style: normal;
   text-transform: uppercase;
 }
 h3 {
