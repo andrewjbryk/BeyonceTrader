@@ -1,5 +1,31 @@
 // larger than phone
 @media only screen and(min-width: 40em) {
+	.introduction__quote {
+		text-align: right;
+		i {
+			color: @accentBold;
+			font-size: 1.5em;
+			padding: .5em;
+		}
+	}
+	.quote__popover {
+		background: @accentBold;
+		color: @grayLightest;
+		display: none;
+		position: absolute;
+		top: 1em;
+		right: 3em;
+		padding: .25em 1em;
+		p { 
+			line-height: 1.15;
+			&:last-child {
+				font-size: .75em;
+				color: @grayMed;
+				text-transform: uppercase;
+			}
+		}
+	}
+	
 	footer {
 		p {
 			font-size: 95%;
