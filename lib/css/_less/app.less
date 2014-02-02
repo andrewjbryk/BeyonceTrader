@@ -17,7 +17,8 @@
   }
 }
 body {
-  background: white;
+  background: black;
+  color: white;
 }
 ::selection {
 	background: @accent; /* Safari */
@@ -42,82 +43,11 @@ hr {
 	border: none;
 	background: #ccc;
 }
-.grid img {
+img {
 	max-width: 100%;
 }
 .overlay {
 	.clearfix();
 	padding: 1.5em 0 3em;
 	height: 100%;
-}
-
-header.main {
-	.clearfix();
-	background: black;
-	li {
-		list-style: none;
-	}
-	a {
-		&:hover {
-			text-decoration: none;
-		}
-	}
-	.logo {
-		display: block;
-		width: 100%;
-		float: left;
-		img, h1 {
-			display: block;
-			position: relative;
-			z-index: 100;
-		}
-		img {
-			max-width: 100%;
-		}
-		a {
-			text-decoration: none;
-			color: white;
-		}
-		h1 {
-			font-size: 10em;
-		}
-	}
-	nav {
-		li {
-			text-align: right;
-			vertical-align: bottom;
-			a {
-				color: white;
-				opacity: .5;
-				text-decoration: none;
-				
-			}
-			&:hover {
-				a {
-					opacity: 1;
-				}
-			}
-		}
-	}
-}
-.container > section {
-	font-size: @miniBump;
-}
-.posts {
-	li {
-		padding: 1em 0;
-	}
-}
-footer {	
-	font-size: @miniBump;
-	background: @grayLight;
-	padding: .5em 0;
-	.info {
-		font-size: 75%;
-		line-height: 1;
-	}
-	.colophon {
-		clear: both;
-		text-align: right;
-	}
 }
