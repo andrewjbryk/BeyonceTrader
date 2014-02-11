@@ -38,34 +38,29 @@
 	
 	<p class="introduction__quote mobile__only">How's the Dow Jones, Beyoncé?</p>
 	
-	<div class="control__panel">
-		<select data-bind="options: beyonce, optionsText: 'nickname', value: selectedBeyonce"></select>
-	</div>
+
 	
 	<div class="site">
 		
 		
+		<img src="/lib/img/shit.gif" />
 		
-		<!-- ko if: selectedBeyonce -->
-		<img data-bind="attr: {src: selectedBeyonce().pic}" />
-		
-		<!-- /ko -->
 	
 	</div>
 
 	<ul class="grid information__panel">
 		<li class="half">
 			<article class="market__data">
-				<h3 data-bind="text: selectedBeyonce().nickname"></h3>
-				<h1 data-bind="text: selectedBeyonce().fake, attr: {class: selectedBeyonce().nickname}"></h1>
+				<h3>shit</h3>
+				<h1 class="shit">-128 (-0.94%)</h1>
 			</article>
 		</li>
 		<li class="half">
 
 			<footer class="attribution__magic">
-				<div class="attribution__names">Made by your homies at <a href="http://techatnyu.org/">tech@NYU</a> <a href="http://twitter.com/techatnyu"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a>
+				<div class="attribution__tnyu">Made by your homies at <a href="http://techatnyu.org/">tech@NYU</a> <a href="http://twitter.com/techatnyu"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a>
 				</div>
-				<div class="attribution__giphy">
+				<div class="attribution__small">
 					<a href="http://twitter.com/andrewjbryk" target="_blank">Andrew</a> and
 					<a href="http://twitter.com/tcburning/" target="_blank">Terri</a> and
 					<a href="http://twitter.com/grungerabbit" target="_blank">Cheryl</a> &bull;
@@ -77,8 +72,6 @@
 	
 
 	<script src="/lib/js/jquery.js"></script>
-	<script src="/lib/js/knockout-3.0.0.js"></script>
-	<script src="/lib/js/jquery.fittext.js"></script>
 	<script src="/lib/js/app.js"></script>
 </body>
 </html>

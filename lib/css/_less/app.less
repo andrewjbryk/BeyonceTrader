@@ -1,10 +1,7 @@
-* {
+*, *:before, *:after {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 .clearfix() {
   &:before,
@@ -15,10 +12,6 @@
   &:after {
     clear: both;
   }
-}
-body {
-  //background: black;
-  //color: white;
 }
 ::selection {
 	background: @accent; /* Safari */
@@ -47,11 +40,6 @@ hr {
 }
 img {
 	max-width: 100%;
-}
-.overlay {
-	.clearfix();
-	padding: 1.5em 0 3em;
-	height: 100%;
 }
 .quote__popover {
 	p { 
@@ -93,6 +81,6 @@ img {
 .attribution__magic {
 	text-align: right;
 }
-.attribution__giphy {
+.attribution__small {
 	font-size: .75em;
 }
