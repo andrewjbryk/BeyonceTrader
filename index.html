@@ -44,7 +44,7 @@
 		<li class="half">
 
 			<footer class="attribution__magic">
-				<div class="attribution__tnyu">Made by your homies at <a href="http://techatnyu.org/" target="_blank">tech@NYU</a> <a href="http://twitter.com/techatnyu" target="_blank"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a>
+				<div class="attribution__tnyu">Made by your homies at <a href="http://techatnyu.org/" target="_blank">tech@NYU</a> <a href="http://twitter.com/techatnyu" target="_blank"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a> <a href="https://www.facebook.com/TechatNYU" target="_blank"><i class="ion-social-facebook" data-pack="social" data-tags="like, post, share"></i></a>
 				</div>
 				<div class="attribution__small">
 					<a href="http://twitter.com/andrewjbryk" target="_blank">Andrew</a> and
@@ -56,6 +56,10 @@
 			</footer>
 		</li>
 	</ul>
+	<p class="mobile__only">Try any ticker symbol <a href="/aapl">AAPL</a> <a href="/amzn">AMZN</a> <a href="/fb">FB</a> <a href="/goog">GOOG</a> <a href="/msft">MSFT</a></p>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="lib/js/app.js"></script>
+	
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     <!-- Facebook SDK -->
     <div id="fb-root"></div>
@@ -67,7 +71,16 @@
       fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-	<script src="lib/js/jquery.js"></script>
-	<script src="lib/js/app.js"></script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-45437819-3', 'beyoncetrader.com');
+	  ga('send', 'pageview');
+
+	</script>
 </body>
 </html>
