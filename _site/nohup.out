@@ -1,0 +1,1038 @@
+Traceback (most recent call last):
+  File "server.py", line 5, in <module>
+    import json, ystockquote, unicodedata
+ImportError: No module named ystockquote
+Traceback (most recent call last):
+  File "server.py", line 5, in <module>
+    import json, ystockquote, unicodedata
+ImportError: No module named ystockquote
+Traceback (most recent call last):
+  File "server.py", line 5, in <module>
+    import json, ystockquote, unicodedata
+ImportError: No module named ystockquote
+[I 140215 05:17:04 web:1728] 200 GET / (127.0.0.1) 4.00ms
+[I 140215 05:17:05 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 5.80ms
+[I 140215 05:17:05 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.16ms
+[I 140215 05:17:05 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.72ms
+[I 140215 05:17:05 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.86ms
+[I 140215 05:17:05 web:1728] 200 GET /s/homepage.json (127.0.0.1) 130.84ms
+[I 140215 05:17:05 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.59ms
+[I 140215 05:17:05 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 8.44ms
+[I 140215 05:17:15 web:1728] 200 GET /AAPL (127.0.0.1) 0.54ms
+[I 140215 05:17:22 web:1728] 304 GET /AAPL (127.0.0.1) 0.57ms
+[I 140215 05:17:22 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.56ms
+[I 140215 05:17:22 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.37ms
+[I 140215 05:17:22 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.37ms
+[I 140215 05:17:22 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.77ms
+[I 140215 05:17:22 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 100.23ms
+[I 140215 05:17:22 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.55ms
+[I 140215 05:17:23 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 3.25ms
+[I 140215 05:17:38 web:1728] 304 GET /AAPL (127.0.0.1) 0.58ms
+[I 140215 05:17:38 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 3.98ms
+[I 140215 05:17:38 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 1.06ms
+[I 140215 05:17:38 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 4.02ms
+[I 140215 05:17:38 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.91ms
+[I 140215 05:17:38 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 136.87ms
+[I 140215 05:17:38 web:1728] 304 GET /lib/img/shit.gif (127.0.0.1) 2.04ms
+[I 140215 05:17:46 web:1728] 200 GET /MCST (127.0.0.1) 5.11ms
+[I 140215 05:17:46 web:1728] 200 GET /api/MCST.json (127.0.0.1) 98.40ms
+[I 140215 05:17:58 web:1728] 200 GET /MSFT (127.0.0.1) 0.55ms
+[I 140215 05:17:58 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.72ms
+[I 140215 05:17:58 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 1.05ms
+[I 140215 05:17:58 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.67ms
+[I 140215 05:17:58 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.66ms
+[I 140215 05:17:58 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 131.14ms
+[I 140215 05:17:59 web:1728] 304 GET /lib/img/okay.gif (127.0.0.1) 3.00ms
+[I 140215 05:18:09 web:1728] 304 GET /AAPL (127.0.0.1) 0.52ms
+[I 140215 05:18:09 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 133.47ms
+[I 140215 05:19:06 web:1728] 304 GET / (127.0.0.1) 0.54ms
+[I 140215 05:19:07 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.62ms
+[I 140215 05:19:07 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.37ms
+[I 140215 05:19:07 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.95ms
+[I 140215 05:19:07 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.69ms
+[I 140215 05:19:07 web:1728] 200 GET /s/homepage.json (127.0.0.1) 267.59ms
+[I 140215 05:19:07 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 4.53ms
+[I 140215 05:19:13 web:1728] 304 GET / (127.0.0.1) 0.74ms
+[I 140215 05:19:13 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.58ms
+[I 140215 05:19:13 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.57ms
+[I 140215 05:19:13 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.68ms
+[I 140215 05:19:13 web:1728] 200 GET /s/homepage.json (127.0.0.1) 174.33ms
+[I 140215 05:19:13 web:1728] 304 GET /lib/img/okay.gif (127.0.0.1) 0.93ms
+[I 140215 05:19:17 web:1728] 304 GET / (127.0.0.1) 0.68ms
+[I 140215 05:19:17 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.61ms
+[I 140215 05:19:17 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.39ms
+[I 140215 05:19:17 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.53ms
+[I 140215 05:19:17 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.57ms
+[I 140215 05:19:17 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.23ms
+[I 140215 05:19:17 web:1728] 304 GET /s/homepage.json (127.0.0.1) 254.06ms
+[I 140215 05:19:18 web:1728] 304 GET /lib/img/okay.gif (127.0.0.1) 0.58ms
+[I 140215 05:21:15 web:1728] 304 GET / (127.0.0.1) 0.51ms
+[I 140215 05:21:15 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.70ms
+[I 140215 05:21:15 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.54ms
+[I 140215 05:21:15 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.51ms
+[I 140215 05:21:16 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.75ms
+[I 140215 05:21:16 web:1728] 304 GET /s/homepage.json (127.0.0.1) 96.66ms
+[I 140215 05:21:16 web:1728] 304 GET /lib/img/okay.gif (127.0.0.1) 0.71ms
+[I 140215 05:51:20 web:1728] 304 GET / (127.0.0.1) 0.51ms
+[I 140215 05:51:20 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.58ms
+[I 140215 05:51:20 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.60ms
+[I 140215 05:51:20 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.56ms
+[I 140215 05:51:20 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.72ms
+[I 140215 05:51:21 web:1728] 200 GET /s/homepage.json (127.0.0.1) 215.19ms
+[I 140215 05:51:21 web:1728] 304 GET /lib/img/great.gif (127.0.0.1) 2.01ms
+[I 140215 05:51:32 web:1728] 200 GET / (127.0.0.1) 0.51ms
+[I 140215 05:51:32 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.66ms
+[I 140215 05:51:33 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.98ms
+[I 140215 05:51:33 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.60ms
+[I 140215 05:51:33 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.86ms
+[I 140215 05:51:35 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.33ms
+[I 140215 05:51:35 web:1728] 200 GET /s/homepage.json (127.0.0.1) 128.11ms
+[I 140215 05:51:36 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 5.02ms
+[I 140215 05:52:08 web:1728] 304 GET /AAPL (127.0.0.1) 0.52ms
+[I 140215 05:52:09 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 318.18ms
+[I 140215 05:52:09 web:1728] 304 GET /lib/img/shit.gif (127.0.0.1) 0.91ms
+[I 140215 05:52:10 web:1728] 200 GET /apple (127.0.0.1) 4.88ms
+[I 140215 05:52:11 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.56ms
+[I 140215 05:52:12 web:1728] 200 GET /api/apple.json (127.0.0.1) 134.80ms
+[I 140215 05:52:13 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 3.84ms
+[I 140215 05:52:24 web:1728] 200 GET /AAPL (127.0.0.1) 0.72ms
+[I 140215 05:52:24 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.77ms
+[I 140215 05:52:25 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 59.72ms
+[I 140215 05:52:26 web:1728] 304 GET /lib/img/shit.gif (127.0.0.1) 0.64ms
+[I 140215 19:43:25 web:1728] 200 GET / (127.0.0.1) 0.51ms
+[I 140215 19:43:25 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.71ms
+[I 140215 19:43:25 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.80ms
+[I 140215 19:43:25 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.77ms
+[I 140215 19:43:25 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.53ms
+[I 140215 19:43:26 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.95ms
+[I 140215 19:43:26 web:1728] 200 GET /s/homepage.json (127.0.0.1) 135.02ms
+[I 140215 19:43:26 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 7.24ms
+[I 140215 19:43:54 web:1728] 304 GET / (127.0.0.1) 0.57ms
+[I 140215 19:43:54 web:1728] 200 GET /s/homepage.json (127.0.0.1) 102.53ms
+[I 140215 19:43:54 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 3.19ms
+[I 140215 19:44:16 web:1728] 200 GET /AAPL (127.0.0.1) 0.50ms
+[I 140215 19:44:16 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 171.11ms
+[I 140215 19:44:16 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 1.36ms
+[I 140215 19:44:23 web:1728] 304 GET /AAPL (127.0.0.1) 0.50ms
+[I 140215 19:44:23 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 46.38ms
+[I 140215 19:44:23 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 5.16ms
+[I 140215 19:44:26 web:1728] 200 GET /MSFT (127.0.0.1) 0.52ms
+[I 140215 19:44:27 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 60.73ms
+[I 140215 19:46:31 web:1728] 200 GET / (127.0.0.1) 0.55ms
+[I 140215 19:46:31 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.66ms
+[I 140215 19:46:31 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.75ms
+[I 140215 19:46:31 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.65ms
+[I 140215 19:46:31 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.75ms
+[I 140215 19:46:31 web:1728] 200 GET /s/homepage.json (127.0.0.1) 47.71ms
+[I 140215 19:46:31 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.89ms
+[I 140215 19:46:32 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 6.45ms
+[I 140215 19:46:32 web:1728] 200 GET /AAPL (127.0.0.1) 0.72ms
+[I 140215 19:46:34 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 131.34ms
+[I 140215 19:46:34 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 2.80ms
+[I 140215 19:46:34 web:1728] 200 GET /MSFT (127.0.0.1) 0.51ms
+[I 140215 19:46:35 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 91.96ms
+[I 140215 19:47:20 web:1728] 304 GET /MSFT (127.0.0.1) 0.51ms
+[I 140215 19:47:20 web:1728] 304 GET /api/MSFT.json (127.0.0.1) 131.25ms
+[I 140215 19:47:25 web:1728] 304 GET /AAPL (127.0.0.1) 0.60ms
+[I 140215 19:47:26 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 183.83ms
+[I 140215 19:55:02 web:1728] 200 GET / (127.0.0.1) 0.49ms
+[I 140215 19:55:03 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.65ms
+[I 140215 19:55:03 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.73ms
+[I 140215 19:55:03 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.66ms
+[I 140215 19:55:03 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.61ms
+[I 140215 19:55:03 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.78ms
+[I 140215 19:55:03 web:1728] 200 GET /s/homepage.json (127.0.0.1) 45.81ms
+[I 140215 19:55:03 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 2.19ms
+[I 140215 20:20:17 web:1728] 200 GET / (127.0.0.1) 0.52ms
+[I 140215 20:20:17 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.73ms
+[I 140215 20:20:17 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.71ms
+[I 140215 20:20:17 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.69ms
+[I 140215 20:20:17 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.71ms
+[I 140215 20:20:17 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.00ms
+[I 140215 20:20:18 web:1728] 200 GET /s/homepage.json (127.0.0.1) 265.04ms
+[I 140215 20:20:18 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 3.51ms
+[I 140215 20:20:39 web:1728] 200 GET /msft (127.0.0.1) 0.53ms
+[I 140215 20:20:39 web:1728] 200 GET /api/msft.json (127.0.0.1) 431.07ms
+[I 140215 20:45:34 web:1728] 200 GET /AAPL (127.0.0.1) 0.73ms
+[I 140215 20:45:35 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 136.31ms
+[I 140215 20:45:35 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 1.42ms
+[I 140215 20:45:41 web:1728] 200 GET /MSFT (127.0.0.1) 0.80ms
+[I 140215 20:45:42 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 130.76ms
+[I 140215 20:45:43 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 3.94ms
+[I 140215 21:31:12 web:1728] 200 GET /MSFT (127.0.0.1) 0.78ms
+[I 140215 21:31:12 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.98ms
+[I 140215 21:31:12 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.09ms
+[I 140215 21:31:12 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.93ms
+[I 140215 21:31:12 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.68ms
+[I 140215 21:31:12 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.21ms
+[I 140215 21:31:13 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 284.44ms
+[I 140215 21:31:13 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 4.28ms
+[I 140215 21:31:22 web:1728] 200 GET /AAPL (127.0.0.1) 0.71ms
+[I 140215 21:31:23 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 212.51ms
+[I 140215 21:31:23 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 2.70ms
+[I 140215 21:31:26 web:1728] 200 GET / (127.0.0.1) 0.53ms
+[I 140215 21:31:27 web:1728] 200 GET /s/homepage.json (127.0.0.1) 48.04ms
+[I 140215 21:31:50 web:1728] 304 GET / (127.0.0.1) 0.77ms
+[I 140215 21:31:53 web:1728] 304 GET /s/homepage.json (127.0.0.1) 3065.13ms
+[I 140215 21:32:01 web:1728] 304 GET / (127.0.0.1) 0.54ms
+[I 140215 21:32:01 web:1728] 304 GET /s/homepage.json (127.0.0.1) 274.16ms
+[I 140215 21:32:12 web:1728] 304 GET /AAPL (127.0.0.1) 0.54ms
+[I 140215 21:32:12 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 214.07ms
+[I 140215 21:32:36 web:1728] 304 GET /MSFT (127.0.0.1) 0.78ms
+[I 140215 21:32:36 web:1728] 304 GET /api/MSFT.json (127.0.0.1) 47.05ms
+[I 140215 21:32:57 web:1728] 304 GET / (127.0.0.1) 0.58ms
+[I 140215 21:32:58 web:1728] 200 GET /s/homepage.json (127.0.0.1) 338.17ms
+[I 140215 21:33:49 web:1728] 304 GET / (127.0.0.1) 0.53ms
+[I 140215 21:33:50 web:1728] 200 GET /s/homepage.json (127.0.0.1) 61.74ms
+[I 140215 21:34:00 web:1728] 304 GET / (127.0.0.1) 0.61ms
+[I 140215 21:34:01 web:1728] 304 GET /s/homepage.json (127.0.0.1) 310.32ms
+[I 140215 21:34:15 web:1728] 304 GET /AAPL (127.0.0.1) 0.51ms
+[I 140215 21:34:20 web:1728] 304 GET /MSFT (127.0.0.1) 0.60ms
+[I 140215 21:34:28 web:1728] 304 GET / (127.0.0.1) 0.52ms
+[I 140215 21:34:28 web:1728] 304 GET /s/homepage.json (127.0.0.1) 277.08ms
+[I 140215 21:34:35 web:1728] 304 GET /MSFT (127.0.0.1) 0.54ms
+[I 140215 21:34:36 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 20307.50ms
+[I 140215 21:34:36 web:1728] 304 GET /api/MSFT.json (127.0.0.1) 47.64ms
+[I 140215 21:34:36 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 213.64ms
+[I 140215 21:34:40 web:1728] 304 GET /AAPL (127.0.0.1) 0.56ms
+[I 140215 21:34:41 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 331.34ms
+[I 140215 21:34:58 web:1728] 304 GET / (127.0.0.1) 0.83ms
+[I 140215 21:34:58 web:1728] 304 GET /s/homepage.json (127.0.0.1) 178.43ms
+[I 140215 21:35:11 web:1728] 304 GET /AAPL (127.0.0.1) 0.56ms
+[I 140215 21:35:11 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 132.41ms
+[I 140215 21:35:14 web:1728] 304 GET /MSFT (127.0.0.1) 0.54ms
+[I 140215 21:35:14 web:1728] 304 GET /api/MSFT.json (127.0.0.1) 275.63ms
+[I 140215 21:36:00 web:1728] 200 GET /XRX (127.0.0.1) 0.62ms
+[I 140215 21:36:01 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.66ms
+[I 140215 21:36:01 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.72ms
+[I 140215 21:36:01 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.67ms
+[I 140215 21:36:01 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.75ms
+[I 140215 21:36:01 web:1728] 200 GET /api/XRX.json (127.0.0.1) 46.99ms
+[I 140215 21:36:01 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.33ms
+[I 140215 21:36:01 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 2.62ms
+[I 140215 21:37:04 web:1728] 200 GET /AAPL (127.0.0.1) 0.87ms
+[I 140215 21:37:04 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.70ms
+[I 140215 21:37:04 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.68ms
+[I 140215 21:37:04 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.69ms
+[I 140215 21:37:04 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.64ms
+[I 140215 21:37:05 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.93ms
+[I 140215 21:37:06 web:1728] 304 GET /AAPL (127.0.0.1) 0.54ms
+[I 140215 21:37:26 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 20840.96ms
+[I 140215 21:37:26 web:1728] 304 GET /AAPL (127.0.0.1) 0.42ms
+[I 140215 21:37:26 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 1.39ms
+[I 140215 21:37:26 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 259.15ms
+[I 140215 21:37:49 web:1728] 200 GET /FB (127.0.0.1) 0.65ms
+[I 140215 21:37:50 web:1728] 200 GET /api/FB.json (127.0.0.1) 189.19ms
+[I 140215 21:37:55 web:1728] 200 GET /GOOG (127.0.0.1) 0.58ms
+[I 140215 21:37:56 web:1728] 200 GET /api/GOOG.json (127.0.0.1) 149.06ms
+[I 140215 21:37:56 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 5.32ms
+[I 140215 21:38:15 web:1728] 200 GET /TUCND (127.0.0.1) 0.53ms
+[I 140215 21:38:16 web:1728] 200 GET /api/TUCND.json (127.0.0.1) 292.27ms
+[I 140215 21:38:22 web:1728] 200 GET /BJI (127.0.0.1) 0.56ms
+[I 140215 21:38:23 web:1728] 200 GET /api/BJI.json (127.0.0.1) 144.62ms
+[I 140215 21:38:32 web:1728] 200 GET /YHOO (127.0.0.1) 0.73ms
+[I 140215 21:38:32 web:1728] 200 GET /api/YHOO.json (127.0.0.1) 302.33ms
+[I 140215 21:38:59 web:1728] 200 GET /AXP (127.0.0.1) 0.60ms
+[I 140215 21:38:59 web:1728] 200 GET /api/AXP.json (127.0.0.1) 261.26ms
+[I 140215 21:39:10 web:1728] 200 GET /BA (127.0.0.1) 0.68ms
+[I 140215 21:39:10 web:1728] 200 GET /api/BA.json (127.0.0.1) 46.89ms
+[I 140215 21:40:48 web:1728] 200 GET /CAT (127.0.0.1) 0.55ms
+[I 140215 21:40:48 web:1728] 200 GET /api/CAT.json (127.0.0.1) 47.64ms
+[I 140215 21:41:38 web:1728] 200 GET /DD (127.0.0.1) 0.56ms
+[I 140215 21:41:39 web:1728] 200 GET /api/DD.json (127.0.0.1) 104.47ms
+[W 140215 22:29:08 web:1728] 405 HEAD / (127.0.0.1) 0.60ms
+[I 140215 23:16:34 web:1728] 304 GET /XRX (127.0.0.1) 0.49ms
+[I 140215 23:16:34 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.87ms
+[I 140215 23:16:34 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.80ms
+[I 140215 23:16:34 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.77ms
+[I 140215 23:16:34 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.79ms
+[I 140215 23:16:37 web:1728] 304 GET /api/XRX.json (127.0.0.1) 3058.21ms
+[I 140215 23:18:18 web:1728] 304 GET /XRX (127.0.0.1) 0.61ms
+[I 140215 23:18:18 web:1728] 200 GET /api/XRX.json (127.0.0.1) 244.44ms
+[I 140215 23:18:18 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 4.66ms
+[I 140216 01:02:37 web:1728] 304 GET / (127.0.0.1) 0.78ms
+[I 140216 01:02:37 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.89ms
+[I 140216 01:02:37 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.77ms
+[I 140216 01:02:37 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.53ms
+[I 140216 01:02:37 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.78ms
+[I 140216 01:02:37 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.88ms
+[I 140216 01:02:38 web:1728] 200 GET /s/homepage.json (127.0.0.1) 287.91ms
+[I 140216 01:02:38 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 3.26ms
+[W 140216 01:03:58 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.59ms
+[I 140216 01:05:27 web:1728] 304 GET / (127.0.0.1) 0.67ms
+[I 140216 01:05:27 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.72ms
+[I 140216 01:05:27 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.81ms
+[I 140216 01:05:27 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.84ms
+[I 140216 01:05:27 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.89ms
+[I 140216 01:05:27 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.67ms
+[I 140216 01:05:29 web:1728] 200 GET /msft (127.0.0.1) 0.54ms
+[I 140216 01:05:33 web:1728] 304 GET /msft (127.0.0.1) 0.57ms
+[I 140216 01:05:33 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.61ms
+[I 140216 01:05:33 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.57ms
+[I 140216 01:05:33 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.59ms
+[I 140216 01:05:47 web:1728] 200 GET /s/homepage.json (127.0.0.1) 20216.34ms
+[I 140216 01:05:47 web:1728] 304 GET / (127.0.0.1) 0.77ms
+[I 140216 01:05:47 web:1728] 200 GET /lib/fonts/ionicons.woff?v=1.4.0 (127.0.0.1) 1.28ms
+[I 140216 01:05:47 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.14ms
+[I 140216 01:06:07 web:1728] 200 GET /api/msft.json (127.0.0.1) 20151.67ms
+[I 140216 01:06:07 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.51ms
+[I 140216 01:06:07 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.46ms
+[I 140216 01:06:07 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.52ms
+[I 140216 01:06:08 web:1728] 200 GET /s/homepage.json (127.0.0.1) 20250.00ms
+[I 140216 01:10:47 web:1728] 200 GET / (127.0.0.1) 0.52ms
+[I 140216 01:10:47 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.71ms
+[I 140216 01:10:47 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.95ms
+[I 140216 01:10:47 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 1.04ms
+[I 140216 01:10:47 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.82ms
+[I 140216 01:10:47 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.95ms
+[I 140216 01:10:48 web:1728] 200 GET /s/homepage.json (127.0.0.1) 313.39ms
+[I 140216 01:10:48 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 4.30ms
+[I 140216 01:10:49 web:1728] 200 GET /AAPL (127.0.0.1) 0.64ms
+[I 140216 01:10:49 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 161.30ms
+[I 140216 01:10:49 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 2.99ms
+[W 140216 02:15:13 web:1728] 405 HEAD / (127.0.0.1) 0.39ms
+[W 140216 02:26:07 web:1728] 405 HEAD / (127.0.0.1) 0.41ms
+[W 140216 09:18:44 web:1728] 404 POST /cgi-bin/php?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E (127.0.0.1) 0.93ms
+[W 140216 09:18:44 web:1728] 404 POST /cgi-bin/php5?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E (127.0.0.1) 1.03ms
+[W 140216 09:18:45 web:1728] 404 POST /cgi-bin/php-cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E (127.0.0.1) 0.79ms
+[W 140216 09:18:45 web:1728] 404 POST /cgi-bin/php.cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E (127.0.0.1) 0.77ms
+[W 140216 09:18:46 web:1728] 404 POST /cgi-bin/php4?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E (127.0.0.1) 0.77ms
+[I 140216 13:10:08 web:1728] 200 GET / (127.0.0.1) 0.54ms
+[W 140216 15:31:14 web:1728] 404 GET /cgi-bin/rtpd.cgi?/bin/busybox (127.0.0.1) 0.44ms
+[W 140216 15:49:28 web:1728] 405 HEAD / (127.0.0.1) 0.44ms
+[W 140216 18:27:16 web:1728] 405 HEAD / (127.0.0.1) 0.51ms
+[I 140216 18:43:17 web:1728] 200 GET / (127.0.0.1) 0.51ms
+[I 140216 18:43:17 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.68ms
+[I 140216 18:43:17 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.69ms
+[I 140216 18:43:17 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.61ms
+[I 140216 18:43:17 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.67ms
+[I 140216 18:43:17 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.32ms
+[I 140216 18:43:18 web:1728] 200 GET /s/homepage.json (127.0.0.1) 129.14ms
+[I 140216 18:43:18 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 5.00ms
+[W 140216 20:08:02 web:1728] 405 HEAD / (127.0.0.1) 0.43ms
+[W 140216 20:12:20 web:1728] 404 GET /cgi-bin/rtpd.cgi?/bin/busybox (127.0.0.1) 0.39ms
+[W 140216 20:50:54 web:1728] 405 HEAD / (127.0.0.1) 0.42ms
+[W 140216 23:53:20 web:1728] 405 HEAD / (127.0.0.1) 0.42ms
+[I 140217 02:13:35 web:1728] 200 GET / (127.0.0.1) 0.56ms
+[I 140217 02:13:35 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.08ms
+[I 140217 02:13:35 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.63ms
+[I 140217 02:13:35 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.86ms
+[I 140217 02:13:35 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.70ms
+[I 140217 02:13:35 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.92ms
+[I 140217 02:13:35 web:1728] 200 GET /s/homepage.json (127.0.0.1) 131.20ms
+[I 140217 02:13:35 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 4.34ms
+[I 140217 02:13:47 web:1728] 200 GET /APPL (127.0.0.1) 0.55ms
+[I 140217 02:13:48 web:1728] 200 GET /api/APPL.json (127.0.0.1) 133.37ms
+[I 140217 02:13:48 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 1.63ms
+[I 140217 02:13:51 web:1728] 200 GET /AAPL (127.0.0.1) 0.56ms
+[I 140217 02:13:51 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 337.33ms
+[I 140217 02:14:01 web:1728] 304 GET /APPL (127.0.0.1) 0.66ms
+[I 140217 02:14:01 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.84ms
+[I 140217 02:14:01 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.56ms
+[I 140217 02:14:01 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.64ms
+[I 140217 02:14:01 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.61ms
+[I 140217 02:14:01 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.62ms
+[I 140217 02:14:05 web:1728] 304 GET / (127.0.0.1) 0.76ms
+[I 140217 02:14:05 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.84ms
+[I 140217 02:14:05 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.75ms
+[I 140217 02:14:33 web:1728] 200 GET / (127.0.0.1) 0.51ms
+[I 140217 02:14:33 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.93ms
+[I 140217 02:14:33 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.60ms
+[I 140217 02:14:33 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.61ms
+[I 140217 02:15:03 web:1728] 304 GET /api/APPL.json (127.0.0.1) 61933.45ms
+[I 140217 02:15:03 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.58ms
+[I 140217 02:15:03 web:1728] 304 GET / (127.0.0.1) 0.48ms
+[I 140217 02:15:03 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.41ms
+[I 140217 02:15:03 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.45ms
+[I 140217 02:15:03 web:1728] 304 GET /s/homepage.json (127.0.0.1) 222.51ms
+[I 140217 02:15:42 web:1728] 200 GET /MSFT (127.0.0.1) 0.77ms
+[I 140217 02:15:43 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 184.93ms
+[I 140217 02:16:00 web:1728] 200 GET /AMZN (127.0.0.1) 0.51ms
+[I 140217 02:16:01 web:1728] 200 GET /api/AMZN.json (127.0.0.1) 334.60ms
+[I 140217 02:16:17 web:1728] 304 GET / (127.0.0.1) 0.52ms
+[I 140217 02:16:17 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.58ms
+[I 140217 02:16:17 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.52ms
+[I 140217 02:16:17 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.69ms
+[I 140217 02:16:17 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.61ms
+[I 140217 02:16:18 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.69ms
+[I 140217 02:16:38 web:1728] 304 GET /s/homepage.json (127.0.0.1) 20756.78ms
+[W 140217 05:28:16 web:1728] 404 GET /cgi-bin/rtpd.cgi?/bin/busybox (127.0.0.1) 0.41ms
+[W 140217 09:03:45 web:1728] 405 HEAD / (127.0.0.1) 0.54ms
+[W 140217 12:37:01 web:1728] 404 GET //cgi-bin/php5 (127.0.0.1) 0.42ms
+[W 140217 12:37:01 web:1728] 404 GET //cgi-bin/php-cgi (127.0.0.1) 0.37ms
+[W 140217 12:37:02 web:1728] 404 GET //cgi-bin/php.cgi (127.0.0.1) 0.42ms
+[W 140217 12:37:02 web:1728] 404 GET //cgi-bin/php4 (127.0.0.1) 0.44ms
+[W 140217 19:27:30 web:1728] 405 HEAD / (127.0.0.1) 0.63ms
+[W 140218 01:36:12 web:1728] 404 GET /cgi-bin/rtpd.cgi?/bin/busybox (127.0.0.1) 0.42ms
+[W 140218 06:45:48 web:1728] 404 GET /cgi-bin/php (127.0.0.1) 0.43ms
+[W 140218 12:06:36 web:1728] 405 HEAD / (127.0.0.1) 0.43ms
+[I 140218 13:12:37 web:1728] 200 GET / (127.0.0.1) 0.54ms
+[I 140218 15:25:35 web:1728] 200 GET / (127.0.0.1) 0.50ms
+[W 140219 01:52:12 web:1728] 404 GET /static/robots.txt (127.0.0.1) 0.45ms
+[I 140219 04:30:22 web:1728] 200 GET / (127.0.0.1) 0.77ms
+[W 140219 06:12:51 web:1728] 405 HEAD / (127.0.0.1) 0.42ms
+[W 140219 09:15:33 web:1728] 404 GET //cgi-bin/php (127.0.0.1) 0.52ms
+[W 140219 09:15:33 web:1728] 404 GET //cgi-bin/php5 (127.0.0.1) 0.58ms
+[W 140219 09:15:33 web:1728] 404 GET //cgi-bin/php-cgi (127.0.0.1) 0.58ms
+[W 140219 09:15:33 web:1728] 404 GET //cgi-bin/php.cgi (127.0.0.1) 0.57ms
+[W 140219 09:15:33 web:1728] 404 GET //cgi-bin/php4 (127.0.0.1) 0.41ms
+[W 140219 13:40:08 web:1728] 405 HEAD / (127.0.0.1) 0.43ms
+[W 140219 18:38:01 web:1728] 405 HEAD / (127.0.0.1) 0.39ms
+[W 140219 20:05:22 web:1728] 405 HEAD / (127.0.0.1) 0.40ms
+[W 140219 21:10:06 web:1728] 405 HEAD / (127.0.0.1) 0.57ms
+[I 140219 22:34:07 web:1728] 304 GET /AAPL (127.0.0.1) 0.55ms
+[I 140219 22:34:07 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.64ms
+[I 140219 22:34:07 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.59ms
+[I 140219 22:34:07 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.61ms
+[I 140219 22:34:07 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.59ms
+[I 140219 22:34:07 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 150.58ms
+[I 140219 22:34:07 web:1728] 304 GET /lib/img/shit.gif (127.0.0.1) 0.62ms
+[I 140219 22:34:16 web:1728] 200 GET /CPB (127.0.0.1) 0.54ms
+[I 140219 22:34:17 web:1728] 200 GET /api/CPB.json (127.0.0.1) 137.59ms
+[I 140219 22:34:17 web:1728] 304 GET /lib/img/okay.gif (127.0.0.1) 0.58ms
+[I 140219 22:35:31 web:1728] 200 GET /CRM (127.0.0.1) 0.77ms
+[I 140219 22:35:32 web:1728] 200 GET /api/CRM.json (127.0.0.1) 399.70ms
+[I 140219 22:36:39 web:1728] 200 GET /ALK (127.0.0.1) 0.55ms
+[I 140219 22:36:39 web:1728] 200 GET /api/ALK.json (127.0.0.1) 219.54ms
+[W 140219 23:44:44 web:1728] 404 GET /cgi-bin/rtpd.cgi?/bin/busybox (127.0.0.1) 0.40ms
+[I 140220 01:40:00 web:1728] 200 GET / (127.0.0.1) 0.73ms
+[I 140220 01:40:00 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.95ms
+[I 140220 01:40:00 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.67ms
+[I 140220 01:40:00 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.96ms
+[I 140220 01:40:00 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.72ms
+[I 140220 01:40:00 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.24ms
+[I 140220 01:40:00 web:1728] 200 GET /s/homepage.json (127.0.0.1) 344.82ms
+[I 140220 01:40:01 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 1.31ms
+[I 140220 01:40:11 web:1728] 304 GET / (127.0.0.1) 0.53ms
+[I 140220 01:40:11 web:1728] 304 GET /s/homepage.json (127.0.0.1) 564.56ms
+[I 140220 01:40:27 web:1728] 304 GET / (127.0.0.1) 0.52ms
+[I 140220 01:40:27 web:1728] 304 GET /s/homepage.json (127.0.0.1) 217.58ms
+[I 140220 01:40:30 web:1728] 200 GET /AAPL (127.0.0.1) 0.49ms
+[I 140220 01:40:30 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 319.25ms
+[I 140220 01:41:09 web:1728] 304 GET / (127.0.0.1) 0.52ms
+[I 140220 01:41:09 web:1728] 304 GET /s/homepage.json (127.0.0.1) 177.33ms
+[W 140220 01:41:14 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.59ms
+[I 140220 01:41:42 web:1728] 200 GET /s/homepage.json (127.0.0.1) 218.60ms
+[W 140220 01:41:42 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.40ms
+[W 140220 01:42:38 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.59ms
+[I 140220 01:44:09 web:1728] 200 GET /a (127.0.0.1) 0.70ms
+[W 140220 01:44:09 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.51ms
+[I 140220 01:44:09 web:1728] 200 GET /api/a.json (127.0.0.1) 205.88ms
+[I 140220 01:44:09 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 2.38ms
+[I 140220 01:44:17 web:1728] 200 GET /api/AAPL.json (127.0.0.1) 336.79ms
+[I 140220 01:46:20 web:1728] 304 GET /a (127.0.0.1) 0.72ms
+[W 140220 01:46:20 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.71ms
+[I 140220 01:46:20 web:1728] 304 GET /api/a.json (127.0.0.1) 268.29ms
+[I 140220 01:46:25 web:1728] 304 GET /a (127.0.0.1) 0.54ms
+[W 140220 01:46:25 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.74ms
+[I 140220 01:46:26 web:1728] 304 GET /api/a.json (127.0.0.1) 292.82ms
+[W 140220 01:46:29 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.63ms
+[I 140220 01:49:08 web:1728] 200 GET / (127.0.0.1) 3.67ms
+[W 140220 01:49:08 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.58ms
+[E 140220 01:49:08 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='162.242.171.186', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-us', 'Accept-Encoding': 'gzip, deflate', 'X-Scheme': 'http', 'Host': '162.242.171.186', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71', 'Connection': 'close', 'X-Requested-With': 'XMLHttpRequest', 'If-None-Match': '"2666a914c98ccb14ffda86e97abec6b986289033"', 'X-Real-Ip': '216.165.95.78', 'Referer': 'http://162.242.171.186/'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^DJI')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 44, in get_all
+        change=values[1],
+    IndexError: list index out of range
+[E 140220 01:49:08 web:1728] 500 GET /s/homepage.json (127.0.0.1) 232.86ms
+[I 140220 01:49:14 web:1728] 200 GET / (127.0.0.1) 0.56ms
+[I 140220 01:49:14 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 3.46ms
+[I 140220 01:49:14 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.62ms
+[I 140220 01:49:14 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.70ms
+[I 140220 01:49:14 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.96ms
+[E 140220 01:49:14 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='162.242.171.186', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-us', 'Accept-Encoding': 'gzip, deflate', 'X-Scheme': 'http', 'Host': '162.242.171.186', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71', 'Connection': 'close', 'Referer': 'http://162.242.171.186/', 'Cache-Control': 'max-age=0', 'X-Real-Ip': '216.165.95.78', 'X-Requested-With': 'XMLHttpRequest'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^DJI')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 44, in get_all
+        change=values[1],
+    IndexError: list index out of range
+[E 140220 01:49:14 web:1728] 500 GET /s/homepage.json (127.0.0.1) 165.76ms
+[W 140220 01:49:14 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.43ms
+[I 140220 01:49:14 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.22ms
+[E 140220 01:49:20 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='162.242.171.186', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-us', 'Accept-Encoding': 'gzip, deflate', 'X-Scheme': 'http', 'Host': '162.242.171.186', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71', 'Connection': 'close', 'X-Real-Ip': '216.165.95.78', 'If-None-Match': '"2666a914c98ccb14ffda86e97abec6b986289033"'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^DJI')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 44, in get_all
+        change=values[1],
+    IndexError: list index out of range
+[E 140220 01:49:20 web:1728] 500 GET /s/homepage.json (127.0.0.1) 276.55ms
+[E 140220 01:49:42 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='162.242.171.186', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-us', 'Accept-Encoding': 'gzip, deflate', 'X-Scheme': 'http', 'Host': '162.242.171.186', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71', 'Connection': 'close', 'X-Real-Ip': '216.165.95.78'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^DJI')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 44, in get_all
+        change=values[1],
+    IndexError: list index out of range
+[E 140220 01:49:42 web:1728] 500 GET /s/homepage.json (127.0.0.1) 292.33ms
+[I 140220 01:51:39 web:1728] 304 GET / (127.0.0.1) 4.42ms
+[W 140220 01:51:39 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.83ms
+[I 140220 01:51:39 web:1728] 200 GET /s/homepage.json (127.0.0.1) 234.38ms
+[I 140220 01:51:54 web:1728] 304 GET / (127.0.0.1) 0.50ms
+[W 140220 01:51:54 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.56ms
+[I 140220 01:51:54 web:1728] 304 GET /s/homepage.json (127.0.0.1) 159.85ms
+[I 140220 01:51:58 web:1728] 304 GET /AAPL (127.0.0.1) 0.56ms
+[W 140220 01:51:58 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.52ms
+[I 140220 01:51:59 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 308.82ms
+[I 140220 01:52:11 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 396.13ms
+[I 140220 01:52:42 web:1728] 304 GET /AAPL (127.0.0.1) 3.49ms
+[W 140220 01:52:42 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.62ms
+[I 140220 01:52:42 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 287.49ms
+[I 140220 01:54:21 web:1728] 304 GET /AAPL (127.0.0.1) 0.78ms
+[W 140220 01:54:22 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.56ms
+[I 140220 01:54:22 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 324.54ms
+[I 140220 01:55:01 web:1728] 200 GET /MSFT (127.0.0.1) 0.50ms
+[W 140220 01:55:02 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.51ms
+[I 140220 01:55:02 web:1728] 200 GET /api/MSFT.json (127.0.0.1) 230.32ms
+[I 140220 01:55:20 web:1728] 200 GET /AMZN (127.0.0.1) 0.53ms
+[W 140220 01:55:20 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.71ms
+[I 140220 01:55:21 web:1728] 200 GET /api/AMZN.json (127.0.0.1) 218.11ms
+[I 140220 01:55:29 web:1728] 200 GET /TWTR (127.0.0.1) 3.33ms
+[W 140220 01:55:29 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.77ms
+[I 140220 01:55:30 web:1728] 200 GET /api/TWTR.json (127.0.0.1) 130.66ms
+[I 140220 01:55:36 web:1728] 304 GET /AMZN (127.0.0.1) 0.77ms
+[W 140220 01:55:36 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.54ms
+[I 140220 01:55:36 web:1728] 304 GET /api/AMZN.json (127.0.0.1) 272.28ms
+[I 140220 01:55:37 web:1728] 304 GET /MSFT (127.0.0.1) 0.54ms
+[W 140220 01:55:37 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.54ms
+[I 140220 01:55:38 web:1728] 304 GET /api/MSFT.json (127.0.0.1) 907.75ms
+[I 140220 01:55:39 web:1728] 304 GET /AAPL (127.0.0.1) 0.51ms
+[W 140220 01:55:39 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.57ms
+[I 140220 01:55:39 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 330.92ms
+[I 140220 01:55:49 web:1728] 200 GET /ZYGA (127.0.0.1) 0.53ms
+[W 140220 01:55:49 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.60ms
+[I 140220 01:55:49 web:1728] 200 GET /api/ZYGA.json (127.0.0.1) 176.76ms
+[I 140220 01:55:55 web:1728] 200 GET /ZNGA (127.0.0.1) 0.59ms
+[W 140220 01:55:55 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.78ms
+[I 140220 01:55:56 web:1728] 200 GET /api/ZNGA.json (127.0.0.1) 360.61ms
+[I 140220 01:56:17 web:1728] 304 GET /api/AAPL.json (127.0.0.1) 217.38ms
+[I 140220 01:59:45 web:1728] 200 GET / (127.0.0.1) 0.50ms
+[I 140220 01:59:45 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 3.52ms
+[I 140220 01:59:45 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 4.38ms
+[I 140220 01:59:45 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 4.45ms
+[I 140220 01:59:45 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.85ms
+[I 140220 01:59:45 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.88ms
+[I 140220 01:59:45 web:1728] 200 GET /s/homepage.json (127.0.0.1) 100.48ms
+[I 140220 01:59:45 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 4.05ms
+[I 140220 01:59:52 web:1728] 200 GET / (127.0.0.1) 0.52ms
+[I 140220 01:59:52 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.70ms
+[I 140220 01:59:52 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.09ms
+[I 140220 01:59:52 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 1.01ms
+[I 140220 01:59:52 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.97ms
+[I 140220 01:59:53 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.16ms
+[E 140220 01:59:58 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='beyoncetrader.com', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-US,en;q=0.8', 'Accept-Encoding': 'gzip,deflate,sdch', 'X-Scheme': 'http', 'Host': 'beyoncetrader.com', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36', 'Connection': 'close', 'X-Requested-With': 'XMLHttpRequest', 'X-Real-Ip': '216.165.95.78', 'Referer': 'http://beyoncetrader.com/'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^GSPC')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 41, in get_all
+        values = _request(symbol, 'l1c1va2xj1b4j4dyekjm3m4rr5p5p6s7').split(',')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 31, in _request
+        resp = urlopen(req)
+      File "/usr/lib/python2.7/urllib2.py", line 126, in urlopen
+        return _opener.open(url, data, timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 438, in error
+        result = self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 625, in http_error_302
+        return self.parent.open(new, timeout=req.timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 444, in error
+        return self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 527, in http_error_default
+        raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+    HTTPError: HTTP Error 502: Server Hangup
+[E 140220 01:59:58 web:1728] 500 GET /s/homepage.json (127.0.0.1) 5525.60ms
+[I 140220 02:00:02 web:1728] 304 GET / (127.0.0.1) 0.50ms
+[W 140220 03:00:46 web:1728] 404 GET /static/robots.txt (127.0.0.1) 0.43ms
+[I 140220 03:00:46 web:1728] 200 GET / (127.0.0.1) 0.61ms
+[W 140220 03:01:17 web:1728] 404 GET /static/robots.txt (127.0.0.1) 0.47ms
+[I 140220 03:01:17 web:1728] 200 GET / (127.0.0.1) 0.46ms
+[W 140220 04:43:42 web:1728] 405 HEAD / (127.0.0.1) 0.47ms
+[I 140220 05:31:19 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.72ms
+[I 140220 06:07:45 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.36ms
+[I 140220 06:57:44 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.77ms
+[W 140220 07:30:57 web:1728] 404 GET /cgi-bin/rtpd.cgi?/bin/busybox (127.0.0.1) 0.52ms
+[I 140220 07:38:26 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.97ms
+[I 140220 09:10:07 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.74ms
+[I 140220 09:23:49 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 1.00ms
+[I 140220 12:49:52 web:1728] 200 GET / (127.0.0.1) 0.47ms
+[W 140220 15:33:28 web:1728] 404 GET /manager/html (127.0.0.1) 0.42ms
+[W 140220 15:40:47 web:1728] 404 GET /manager/html (127.0.0.1) 0.41ms
+[I 140220 15:54:37 web:1728] 200 GET / (127.0.0.1) 0.50ms
+[I 140220 15:54:37 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.94ms
+[I 140220 15:54:37 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.74ms
+[I 140220 15:54:37 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.25ms
+[I 140220 15:54:37 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.68ms
+[I 140220 15:54:37 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.97ms
+[I 140220 15:54:38 web:1728] 200 GET /s/homepage.json (127.0.0.1) 428.80ms
+[I 140220 15:54:38 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 8.75ms
+[I 140220 15:54:57 web:1728] 200 GET /IGTE (127.0.0.1) 0.55ms
+[I 140220 15:54:58 web:1728] 200 GET /api/IGTE.json (127.0.0.1) 265.13ms
+[I 140220 15:54:58 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 4.17ms
+[I 140220 15:55:56 web:1728] 200 GET /GOOG (127.0.0.1) 0.64ms
+[I 140220 15:55:57 web:1728] 200 GET /api/GOOG.json (127.0.0.1) 479.46ms
+[I 140220 15:56:42 web:1728] 200 GET /MMM (127.0.0.1) 0.49ms
+[I 140220 15:56:47 web:1728] 304 GET /MMM (127.0.0.1) 0.51ms
+[I 140220 15:56:47 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.66ms
+[I 140220 15:56:54 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.37ms
+[I 140220 15:57:00 web:1728] 200 GET /AXP (127.0.0.1) 0.50ms
+[I 140220 15:57:11 web:1728] 200 GET /T (127.0.0.1) 0.50ms
+[I 140220 15:57:11 web:1728] 200 GET /api/T.json (127.0.0.1) 358.57ms
+[I 140220 15:57:24 web:1728] 200 GET /api/MMM.json (127.0.0.1) 42003.77ms
+[I 140220 15:57:24 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.41ms
+[I 140220 15:57:25 web:1728] 200 GET /api/AXP.json (127.0.0.1) 234.98ms
+[I 140220 15:57:25 web:1728] 200 GET /BA (127.0.0.1) 0.46ms
+[I 140220 15:57:25 web:1728] 200 GET /api/BA.json (127.0.0.1) 272.96ms
+[I 140220 15:57:33 web:1728] 200 GET /GE (127.0.0.1) 0.53ms
+[I 140220 15:57:55 web:1728] 200 GET /api/GE.json (127.0.0.1) 21091.87ms
+[I 140220 15:58:20 web:1728] 304 GET / (127.0.0.1) 0.53ms
+[I 140220 15:58:25 web:1728] 304 GET / (127.0.0.1) 0.57ms
+[I 140220 15:58:26 web:1728] 200 GET /s/homepage.json (127.0.0.1) 569.04ms
+[I 140220 15:58:26 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 3.60ms
+[I 140220 15:58:35 web:1728] 304 GET / (127.0.0.1) 0.49ms
+[I 140220 15:58:35 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.58ms
+[I 140220 15:58:41 web:1728] 200 GET /s/homepage.json (127.0.0.1) 20604.06ms
+[I 140220 15:58:41 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.48ms
+[I 140220 15:58:41 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.45ms
+[I 140220 15:58:41 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.61ms
+[I 140220 15:58:41 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.75ms
+[I 140220 15:58:41 web:1728] 200 GET /s/homepage.json (127.0.0.1) 180.21ms
+[I 140220 15:58:41 web:1728] 304 GET /lib/img/great.gif (127.0.0.1) 1.85ms
+[I 140220 16:01:05 web:1728] 200 GET / (127.0.0.1) 0.51ms
+[I 140220 16:01:05 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.67ms
+[I 140220 16:01:05 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.72ms
+[I 140220 16:01:05 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.45ms
+[I 140220 16:01:05 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.59ms
+[I 140220 16:01:05 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.31ms
+[I 140220 16:01:05 web:1728] 200 GET /s/homepage.json (127.0.0.1) 280.35ms
+[I 140220 16:01:06 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 5.99ms
+[I 140220 16:02:41 web:1728] 304 GET / (127.0.0.1) 0.69ms
+[I 140220 16:02:42 web:1728] 304 GET / (127.0.0.1) 0.52ms
+[I 140220 16:02:46 web:1728] 200 GET / (127.0.0.1) 0.53ms
+[I 140220 16:02:46 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.65ms
+[I 140220 16:03:15 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.70ms
+[I 140220 16:03:24 web:1728] 200 GET /s/homepage.json (127.0.0.1) 42278.46ms
+[I 140220 16:03:24 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.40ms
+[W 140220 16:03:24 web:1728] 404 GET /js/app.js (127.0.0.1) 0.20ms
+[W 140220 16:03:24 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.25ms
+[I 140220 16:03:50 web:1728] 200 GET /s/homepage.json (127.0.0.1) 68673.02ms
+[I 140220 16:03:50 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 1.02ms
+[I 140220 16:03:50 web:1728] 304 GET /T (127.0.0.1) 0.44ms
+[W 140220 16:03:50 web:1728] 404 GET /js/app.js (127.0.0.1) 0.32ms
+[I 140220 16:03:50 web:1728] 304 GET /GOOG (127.0.0.1) 0.33ms
+[I 140220 16:04:06 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.69ms
+[W 140220 16:04:10 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.42ms
+[I 140220 16:05:08 web:1728] 200 GET / (127.0.0.1) 0.48ms
+[I 140220 16:05:08 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.68ms
+[I 140220 16:05:08 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.51ms
+[I 140220 16:05:08 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.62ms
+[I 140220 16:05:08 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.87ms
+[I 140220 16:05:09 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.60ms
+[I 140220 16:05:12 web:1728] 200 GET /s/homepage.json (127.0.0.1) 3340.58ms
+[I 140220 16:05:12 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 2.80ms
+[I 140220 16:06:40 web:1728] 304 GET / (127.0.0.1) 0.50ms
+[E 140220 16:07:01 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='beyoncetrader.com', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-US,en;q=0.8', 'Accept-Encoding': 'gzip,deflate,sdch', 'X-Scheme': 'http', 'Host': 'beyoncetrader.com', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36', 'Connection': 'close', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://beyoncetrader.com/', 'X-Real-Ip': '216.165.95.74', 'If-None-Match': '"b7d66b41c6ecf449f7ffcf656551bcd6cecb4309"'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^GSPC')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 41, in get_all
+        values = _request(symbol, 'l1c1va2xj1b4j4dyekjm3m4rr5p5p6s7').split(',')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 31, in _request
+        resp = urlopen(req)
+      File "/usr/lib/python2.7/urllib2.py", line 126, in urlopen
+        return _opener.open(url, data, timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 438, in error
+        result = self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 625, in http_error_302
+        return self.parent.open(new, timeout=req.timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 444, in error
+        return self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 527, in http_error_default
+        raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+    HTTPError: HTTP Error 502: Server Hangup
+[E 140220 16:07:01 web:1728] 500 GET /s/homepage.json (127.0.0.1) 20752.27ms
+[I 140220 16:07:47 web:1728] 200 GET / (127.0.0.1) 0.50ms
+[I 140220 16:07:47 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.65ms
+[I 140220 16:07:47 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.67ms
+[I 140220 16:07:47 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.57ms
+[I 140220 16:07:47 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.94ms
+[I 140220 16:07:47 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.93ms
+[I 140220 16:07:47 web:1728] 200 GET /s/homepage.json (127.0.0.1) 217.48ms
+[I 140220 16:07:47 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 3.32ms
+[W 140220 16:08:42 web:1728] 404 GET /api/%5EDJI.js (127.0.0.1) 0.41ms
+[W 140220 16:08:44 web:1728] 404 GET /api/%5EDJI.api (127.0.0.1) 0.48ms
+[W 140220 16:08:48 web:1728] 404 GET /api/%5EDJI.api (127.0.0.1) 0.44ms
+[W 140220 16:08:52 web:1728] 404 GET /api/bye.api (127.0.0.1) 0.40ms
+[W 140220 16:08:54 web:1728] 404 GET /api/bye.jsno (127.0.0.1) 0.41ms
+[I 140220 16:08:57 web:1728] 200 GET /api/bye.json (127.0.0.1) 485.98ms
+[E 140220 16:09:59 web:1305] Uncaught exception GET /api/%5EDJI.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='beyoncetrader.com', method='GET', uri='/api/%5EDJI.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-US,en;q=0.8', 'Accept-Encoding': 'gzip,deflate,sdch', 'X-Scheme': 'http', 'Host': 'beyoncetrader.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36', 'Connection': 'close', 'X-Real-Ip': '216.165.95.74'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 22, in get
+        endResult = ystockquote.get_all(query)
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 41, in get_all
+        values = _request(symbol, 'l1c1va2xj1b4j4dyekjm3m4rr5p5p6s7').split(',')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 31, in _request
+        resp = urlopen(req)
+      File "/usr/lib/python2.7/urllib2.py", line 126, in urlopen
+        return _opener.open(url, data, timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 438, in error
+        result = self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 625, in http_error_302
+        return self.parent.open(new, timeout=req.timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 444, in error
+        return self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 527, in http_error_default
+        raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+    HTTPError: HTTP Error 502: Server Hangup
+[E 140220 16:09:59 web:1728] 500 GET /api/%5EDJI.json (127.0.0.1) 57108.66ms
+[I 140220 16:13:11 web:1728] 304 GET / (127.0.0.1) 0.50ms
+[I 140220 16:13:11 web:1728] 200 GET /s/homepage.json (127.0.0.1) 237.68ms
+[I 140220 16:13:11 web:1728] 304 GET /lib/img/great.gif (127.0.0.1) 0.63ms
+[I 140220 16:14:40 web:1728] 304 GET / (127.0.0.1) 0.50ms
+[I 140220 16:14:41 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.88ms
+[I 140220 16:14:41 web:1728] 200 GET /s/homepage.json (127.0.0.1) 303.05ms
+[W 140220 16:20:30 web:1728] 405 HEAD / (127.0.0.1) 0.42ms
+[I 140220 16:33:49 web:1728] 304 GET / (127.0.0.1) 0.53ms
+[I 140220 16:33:49 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.86ms
+[I 140220 16:33:49 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.84ms
+[I 140220 16:33:49 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.80ms
+[I 140220 16:33:49 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.63ms
+[I 140220 16:33:50 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.93ms
+[I 140220 16:33:50 web:1728] 200 GET /s/homepage.json (127.0.0.1) 275.81ms
+[I 140220 16:33:50 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 3.50ms
+[I 140220 17:14:02 web:1728] 200 GET / (127.0.0.1) 0.69ms
+[I 140220 17:14:03 web:1728] 200 GET / (127.0.0.1) 0.71ms
+[I 140220 17:14:04 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.66ms
+[I 140220 17:14:04 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.79ms
+[I 140220 17:14:04 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.71ms
+[I 140220 17:14:04 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.74ms
+[I 140220 17:14:04 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.27ms
+[I 140220 17:14:04 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.22ms
+[I 140220 17:14:25 web:1728] 200 GET /s/homepage.json (127.0.0.1) 20664.82ms
+[I 140220 17:14:28 web:1728] 200 GET /s/homepage.json (127.0.0.1) 20645.39ms
+[I 140220 17:14:28 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 4.91ms
+[I 140220 17:16:05 web:1728] 200 GET /aapl (127.0.0.1) 0.63ms
+[I 140220 17:16:05 web:1728] 200 GET /aapl (127.0.0.1) 0.52ms
+[I 140220 17:16:05 web:1728] 200 GET /api/aapl.json (127.0.0.1) 527.77ms
+[I 140220 17:16:06 web:1728] 200 GET /api/aapl.json (127.0.0.1) 214.56ms
+[I 140220 17:16:06 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 4.24ms
+[I 140220 17:16:13 web:1728] 200 GET /ndaq (127.0.0.1) 0.51ms
+[I 140220 17:16:13 web:1728] 200 GET /ndaq (127.0.0.1) 0.50ms
+[I 140220 17:16:13 web:1728] 200 GET /api/ndaq.json (127.0.0.1) 183.25ms
+[I 140220 17:16:14 web:1728] 200 GET /api/ndaq.json (127.0.0.1) 287.59ms
+[I 140220 17:16:19 web:1728] 200 GET /msft (127.0.0.1) 0.58ms
+[I 140220 17:16:19 web:1728] 200 GET /msft (127.0.0.1) 0.52ms
+[I 140220 17:16:23 web:1728] 200 GET /api/msft.json (127.0.0.1) 347.09ms
+[I 140220 17:16:28 web:1728] 200 GET /fb (127.0.0.1) 0.52ms
+[I 140220 17:16:28 web:1728] 200 GET /fb (127.0.0.1) 0.50ms
+[I 140220 17:16:34 web:1728] 200 GET /api/fb.json (127.0.0.1) 294.15ms
+[I 140220 17:16:40 web:1728] 200 GET /api/msft.json (127.0.0.1) 20513.72ms
+[I 140220 17:16:40 web:1728] 200 GET /lib/img/okay.gif (127.0.0.1) 9.42ms
+[I 140220 17:16:41 web:1728] 200 GET /api/fb.json (127.0.0.1) 792.86ms
+[I 140220 17:16:46 web:1728] 200 GET / (127.0.0.1) 0.50ms
+[I 140220 17:16:46 web:1728] 200 GET /s/homepage.json (127.0.0.1) 127.80ms
+[W 140220 17:16:53 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.51ms
+[W 140220 17:16:53 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.50ms
+[W 140220 17:17:07 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.59ms
+[I 140220 18:30:28 web:1728] 200 GET / (127.0.0.1) 0.49ms
+[I 140220 18:30:28 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.60ms
+[I 140220 18:30:29 web:1728] 200 GET /s/homepage.json (127.0.0.1) 223.83ms
+[W 140220 18:30:35 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.39ms
+[I 140220 19:51:42 web:1728] 200 GET / (127.0.0.1) 0.59ms
+[I 140220 19:51:42 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.61ms
+[E 140220 19:51:43 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='beyoncetrader.com', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-US,en;q=0.8', 'Accept-Encoding': 'gzip,deflate,sdch', 'X-Bluecoat-Via': '19c7d463e6d44b30', 'X-Scheme': 'http', 'Host': 'beyoncetrader.com', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36', 'Connection': 'close', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-stale=0', 'X-Real-Ip': '206.200.253.205', 'Referer': 'http://beyoncetrader.com/'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^GSPC')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 41, in get_all
+        values = _request(symbol, 'l1c1va2xj1b4j4dyekjm3m4rr5p5p6s7').split(',')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 31, in _request
+        resp = urlopen(req)
+      File "/usr/lib/python2.7/urllib2.py", line 126, in urlopen
+        return _opener.open(url, data, timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 438, in error
+        result = self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 625, in http_error_302
+        return self.parent.open(new, timeout=req.timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 444, in error
+        return self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 527, in http_error_default
+        raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+    HTTPError: HTTP Error 502: Server Hangup
+[E 140220 19:51:43 web:1728] 500 GET /s/homepage.json (127.0.0.1) 481.82ms
+[I 140220 19:52:04 web:1728] 200 GET /aapl (127.0.0.1) 0.62ms
+[I 140220 19:52:04 web:1728] 200 GET /api/aapl.json (127.0.0.1) 385.50ms
+[I 140220 20:11:34 web:1728] 304 GET / (127.0.0.1) 0.63ms
+[I 140220 20:11:34 web:1728] 200 GET /s/homepage.json (127.0.0.1) 63.52ms
+[I 140220 20:11:51 web:1728] 200 GET /GOOG (127.0.0.1) 0.53ms
+[I 140220 20:11:51 web:1728] 200 GET /api/GOOG.json (127.0.0.1) 281.51ms
+[I 140220 20:11:58 web:1728] 200 GET /T (127.0.0.1) 0.50ms
+[I 140220 20:11:58 web:1728] 200 GET /api/T.json (127.0.0.1) 332.55ms
+[I 140220 20:12:08 web:1728] 200 GET /GE (127.0.0.1) 0.51ms
+[I 140220 20:12:08 web:1728] 200 GET /api/GE.json (127.0.0.1) 309.00ms
+[W 140220 21:06:18 web:1728] 405 HEAD / (127.0.0.1) 0.51ms
+[I 140220 23:31:50 web:1728] 304 GET / (127.0.0.1) 0.55ms
+[I 140220 23:31:55 web:1728] 304 GET / (127.0.0.1) 0.49ms
+[I 140220 23:31:55 web:1728] 200 GET /s/homepage.json (127.0.0.1) 264.64ms
+[I 140220 23:31:56 web:1728] 304 GET /lib/img/great.gif (127.0.0.1) 0.85ms
+[I 140220 23:32:14 web:1728] 200 GET /s/homepage.json (127.0.0.1) 24338.49ms
+[I 140220 23:32:58 web:1728] 200 GET /GOOG (127.0.0.1) 0.52ms
+[I 140220 23:32:59 web:1728] 200 GET /api/GOOG.json (127.0.0.1) 179.13ms
+[I 140220 23:33:04 web:1728] 200 GET /T (127.0.0.1) 0.51ms
+[I 140220 23:33:05 web:1728] 200 GET /api/T.json (127.0.0.1) 233.66ms
+[I 140220 23:33:35 web:1728] 200 GET /P (127.0.0.1) 0.57ms
+[I 140220 23:33:35 web:1728] 200 GET /api/P.json (127.0.0.1) 418.13ms
+[I 140221 02:26:14 web:1728] 200 GET /proxy.txt (127.0.0.1) 0.72ms
+[W 140221 05:13:56 web:1728] 404 GET /static/robots.txt (127.0.0.1) 0.41ms
+[W 140221 05:13:56 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.42ms
+[W 140221 05:58:25 web:1728] 404 GET /static/robots.txt (127.0.0.1) 0.38ms
+[I 140221 06:21:28 web:1728] 200 GET / (127.0.0.1) 0.53ms
+[I 140221 06:21:28 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.95ms
+[I 140221 06:21:28 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.80ms
+[I 140221 06:21:28 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.73ms
+[I 140221 06:21:29 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.69ms
+[I 140221 06:21:29 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.90ms
+[I 140221 06:21:30 web:1728] 200 GET /s/homepage.json (127.0.0.1) 214.60ms
+[I 140221 06:21:30 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 3.10ms
+[W 140221 06:22:20 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.38ms
+[I 140221 06:23:06 web:1728] 200 GET / (127.0.0.1) 0.56ms
+[I 140221 06:23:07 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.88ms
+[I 140221 06:23:07 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.02ms
+[I 140221 06:23:07 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.84ms
+[I 140221 06:23:07 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 1.03ms
+[I 140221 06:23:08 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.97ms
+[I 140221 06:23:08 web:1728] 200 GET /s/homepage.json (127.0.0.1) 265.14ms
+[I 140221 06:23:46 web:1728] 200 GET / (127.0.0.1) 0.71ms
+[W 140221 06:27:22 web:1728] 404 GET /static/favicon.ico (127.0.0.1) 0.41ms
+[I 140221 06:27:22 web:1728] 200 GET / (127.0.0.1) 0.68ms
+[I 140221 06:27:22 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.93ms
+[I 140221 06:27:22 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.64ms
+[I 140221 06:27:22 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.98ms
+[I 140221 06:27:23 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.71ms
+[I 140221 06:27:23 web:1728] 200 GET /lib/fonts/ionicons.eot?v=1.4.0 (127.0.0.1) 1.24ms
+[I 140221 06:27:23 web:1728] 200 GET /s/homepage.json (127.0.0.1) 308.10ms
+[I 140221 06:27:23 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 1.40ms
+[I 140221 06:27:49 web:1728] 200 GET / (127.0.0.1) 0.58ms
+[I 140221 06:27:49 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.69ms
+[I 140221 06:27:49 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.64ms
+[I 140221 06:27:49 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.94ms
+[I 140221 06:27:50 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.98ms
+[I 140221 06:27:50 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.92ms
+[I 140221 06:27:51 web:1728] 200 GET /s/homepage.json (127.0.0.1) 309.31ms
+[I 140221 06:27:51 web:1728] 200 GET /lib/img/great.gif (127.0.0.1) 3.58ms
+[I 140221 06:28:40 web:1728] 200 GET / (127.0.0.1) 0.62ms
+[W 140221 15:16:58 web:1728] 404 GET /static/robots.txt (127.0.0.1) 0.42ms
+[I 140221 15:16:58 web:1728] 200 GET / (127.0.0.1) 0.47ms
+[I 140221 17:17:45 web:1728] 304 GET / (127.0.0.1) 0.67ms
+[I 140221 17:17:46 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.62ms
+[I 140221 17:17:46 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.61ms
+[I 140221 17:17:46 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.60ms
+[I 140221 17:17:47 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.64ms
+[E 140221 17:17:59 web:1305] Uncaught exception GET /s/homepage.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='beyoncetrader.com', method='GET', uri='/s/homepage.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-US,en;q=0.8', 'Accept-Encoding': 'gzip,deflate,sdch', 'X-Scheme': 'http', 'Host': 'beyoncetrader.com', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Connection': 'close', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://beyoncetrader.com/', 'X-Real-Ip': '98.14.211.229', 'If-None-Match': '"1d731f2bde6208da39a706ee36c4459695282ca1"'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 30, in get
+        endResult = ystockquote.get_all('^GSPC')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 41, in get_all
+        values = _request(symbol, 'l1c1va2xj1b4j4dyekjm3m4rr5p5p6s7').split(',')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 31, in _request
+        resp = urlopen(req)
+      File "/usr/lib/python2.7/urllib2.py", line 126, in urlopen
+        return _opener.open(url, data, timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 438, in error
+        result = self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 625, in http_error_302
+        return self.parent.open(new, timeout=req.timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 444, in error
+        return self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 527, in http_error_default
+        raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+    HTTPError: HTTP Error 502: Server Hangup
+[E 140221 17:17:59 web:1728] 500 GET /s/homepage.json (127.0.0.1) 7190.31ms
+[I 140221 19:48:11 web:1728] 200 GET / (127.0.0.1) 0.74ms
+[I 140221 19:48:11 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.69ms
+[I 140221 19:48:11 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 1.00ms
+[I 140221 19:48:11 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.68ms
+[I 140221 19:48:12 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.72ms
+[I 140221 19:48:12 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.06ms
+[I 140221 19:48:12 web:1728] 200 GET /s/homepage.json (127.0.0.1) 161.50ms
+[I 140221 19:48:12 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 2.87ms
+[I 140221 21:29:35 web:1728] 200 GET /search?q=onet (127.0.0.1) 0.52ms
+[I 140221 22:52:24 web:1728] 200 GET / (127.0.0.1) 0.49ms
+[I 140221 22:52:24 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.94ms
+[I 140221 22:52:24 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.61ms
+[I 140221 22:52:24 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.73ms
+[I 140221 22:52:24 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.71ms
+[I 140221 22:52:24 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 1.33ms
+[I 140221 22:52:26 web:1728] 200 GET /s/homepage.json (127.0.0.1) 316.67ms
+[I 140221 22:52:26 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 1.98ms
+[I 140222 00:10:40 web:1728] 200 GET / (127.0.0.1) 0.49ms
+[I 140222 00:10:40 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 1.00ms
+[I 140222 00:10:40 web:1728] 200 GET /lib/js/jquery.js (127.0.0.1) 0.82ms
+[I 140222 00:10:40 web:1728] 200 GET /lib/js/app.js (127.0.0.1) 0.86ms
+[I 140222 00:10:40 web:1728] 200 GET /lib/css/ionicons.css (127.0.0.1) 0.95ms
+[I 140222 00:10:40 web:1728] 200 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.93ms
+[I 140222 00:10:40 web:1728] 200 GET /s/homepage.json (127.0.0.1) 313.41ms
+[I 140222 00:10:40 web:1728] 200 GET /lib/img/shit.gif (127.0.0.1) 2.59ms
+[I 140222 00:11:40 web:1728] 200 GET /lib/css/styles.css?now=1393027913305 (127.0.0.1) 0.67ms
+[I 140222 00:11:52 web:1728] 200 GET /lib/css/styles.css?now=1393027925109 (127.0.0.1) 0.68ms
+[W 140222 00:13:24 web:1728] 404 GET /lib/js/jquery-2.0.3.min.map (127.0.0.1) 0.59ms
+[I 140222 00:14:30 web:1728] 304 GET / (127.0.0.1) 0.55ms
+[I 140222 00:14:30 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.63ms
+[I 140222 00:14:30 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.67ms
+[I 140222 00:14:30 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.58ms
+[I 140222 00:14:30 web:1728] 304 GET /lib/css/ionicons.css (127.0.0.1) 0.62ms
+[I 140222 00:14:30 web:1728] 304 GET /lib/fonts/ionicons.ttf?v=1.4.0 (127.0.0.1) 0.64ms
+[I 140222 00:14:35 web:1728] 304 GET / (127.0.0.1) 0.63ms
+[I 140222 00:14:35 web:1728] 304 GET /lib/js/jquery.js (127.0.0.1) 0.56ms
+[I 140222 00:14:35 web:1728] 304 GET /lib/js/app.js (127.0.0.1) 0.64ms
+[I 140222 00:14:41 web:1728] 200 GET /aapl (127.0.0.1) 0.55ms
+[I 140222 00:14:47 web:1728] 304 GET /aapl (127.0.0.1) 0.77ms
+[I 140222 00:14:50 web:1728] 304 GET /s/homepage.json (127.0.0.1) 20362.98ms
+[I 140222 00:14:50 web:1728] 304 GET /lib/css/styles.css (127.0.0.1) 0.48ms
+[I 140222 00:14:50 web:1728] 200 GET /lib/css/styles.css (127.0.0.1) 0.64ms
+[I 140222 00:15:07 web:1728] 200 GET /api/aapl.json (127.0.0.1) 16609.44ms
+[E 140222 00:15:07 web:1305] Uncaught exception GET /api/aapl.json (127.0.0.1)
+    HTTPRequest(protocol='http', host='beyoncetrader.com', method='GET', uri='/api/aapl.json', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-US,en;q=0.8', 'Accept-Encoding': 'gzip,deflate,sdch', 'X-Scheme': 'http', 'Host': 'beyoncetrader.com', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36', 'Connection': 'close', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://beyoncetrader.com/aapl', 'X-Real-Ip': '108.176.133.76', 'If-None-Match': '"8a7a269f82fcea42ee9284110bcd2602f8ed2fe6"'})
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/usr/local/lib/python2.7/dist-packages/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "server.py", line 22, in get
+        endResult = ystockquote.get_all(query)
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 41, in get_all
+        values = _request(symbol, 'l1c1va2xj1b4j4dyekjm3m4rr5p5p6s7').split(',')
+      File "/usr/local/lib/python2.7/dist-packages/ystockquote.py", line 31, in _request
+        resp = urlopen(req)
+      File "/usr/lib/python2.7/urllib2.py", line 126, in urlopen
+        return _opener.open(url, data, timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 438, in error
+        result = self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 625, in http_error_302
+        return self.parent.open(new, timeout=req.timeout)
+      File "/usr/lib/python2.7/urllib2.py", line 406, in open
+        response = meth(req, response)
+      File "/usr/lib/python2.7/urllib2.py", line 519, in http_response
+        'http', request, response, code, msg, hdrs)
+      File "/usr/lib/python2.7/urllib2.py", line 444, in error
+        return self._call_chain(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+        result = func(*args)
+      File "/usr/lib/python2.7/urllib2.py", line 527, in http_error_default
+        raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+    HTTPError: HTTP Error 502: Server Hangup
+[E 140222 00:15:07 web:1728] 500 GET /api/aapl.json (127.0.0.1) 105.08ms
+[I 140222 00:16:52 web:1728] 200 GET /_site (127.0.0.1) 0.79ms
+[I 140222 00:16:53 web:1728] 200 GET /api/_site.json (127.0.0.1) 200.27ms

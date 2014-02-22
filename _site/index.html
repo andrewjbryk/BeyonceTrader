@@ -5,67 +5,48 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>BEY TRADER</title>
 	<meta name="viewport" content="width=device-width">
-
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="/lib/css/styles.css">
+	<link rel="stylesheet" href="lib/css/styles.css">
 	<meta name="description" content="Your daily market dose- from the female version of a hustla herself. By tech@NYU." />
 	<meta name="keywords" content="beyonce stock market today dow jones industrial average day trader" />
-		
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2" />
-		
+	<link rel="shortcut icon" type="image/x-icon" href="http://techatnyu.org/favicon.ico" />
 </head>
 <body>
-	<!--
-		TO DO: add social media, add analytics, add favicon
-	-->
-	
 	<ul class="grid">
 		<li class="half">
 			<div class="social-media__panel">
-				<p>SOCIAL MEDIA HERE</p>
-			</div>
+		    	<div class="fb-like" data-href="https://www.facebook.com/TechatNYU" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br>
+		    	<a href="https://twitter.com/TechatNYU" class="twitter-follow-button" data-show-count="false">Follow @TechatNYU</a>
+		    </div>
 		</li>
 		<li class="half">
 			<div class="introduction__quote">
 				<i class="ion-help-circled active" data-pack="default" data-tags="question, ?"></i>
 				<div class="quote__popover">
 					<p>your daily market dose- from the female version of a hustla herself</p>
-					<p>.DJI Dow Jones Industrial Average</p>
+					<p id="stock_name">.DJI Dow Jones Industrial Average</p>
 				</div>
 			</div>
 		</li>
 	</ul>
-	
+
 	<p class="introduction__quote mobile__only">How's the Dow Jones, Beyoncé?</p>
-	
-	<div class="control__panel">
-		<select data-bind="options: beyonce, optionsText: 'nickname', value: selectedBeyonce"></select>
-	</div>
-	
 	<div class="site">
-		
-		
-		
-		<!-- ko if: selectedBeyonce -->
-		<img data-bind="attr: {src: selectedBeyonce().pic}" />
-		
-		<!-- /ko -->
-	
+		<img id="beyonceImage" />
 	</div>
 
 	<ul class="grid information__panel">
 		<li class="half">
 			<article class="market__data">
-				<h3 data-bind="text: selectedBeyonce().nickname"></h3>
-				<h1 data-bind="text: selectedBeyonce().fake, attr: {class: selectedBeyonce().nickname}"></h1>
+				<h3 id="beyonceStatus"></h3>
+				<h1 id="beyonceValue" class="shit"></h1>
 			</article>
 		</li>
 		<li class="half">
 
 			<footer class="attribution__magic">
-				<div class="attribution__names">Made by your homies at <a href="http://techatnyu.org/">tech@NYU</a> <a href="http://twitter.com/techatnyu"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a>
+				<div class="attribution__tnyu">Made by your homies at <a href="http://techatnyu.org/">tech@NYU</a> <a href="http://twitter.com/techatnyu"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a>
 				</div>
-				<div class="attribution__giphy">
+				<div class="attribution__small">
 					<a href="http://twitter.com/andrewjbryk" target="_blank">Andrew</a> and
 					<a href="http://twitter.com/tcburning/" target="_blank">Terri</a> and
 					<a href="http://twitter.com/grungerabbit" target="_blank">Cheryl</a> &bull;
@@ -74,11 +55,18 @@
 			</footer>
 		</li>
 	</ul>
-	
-
-	<script src="/lib/js/jquery.js"></script>
-	<script src="/lib/js/knockout-3.0.0.js"></script>
-	<script src="/lib/js/jquery.fittext.js"></script>
-	<script src="/lib/js/app.js"></script>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!-- Facebook SDK -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=641740299238380";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	<script src="lib/js/jquery.js"></script>
+	<script src="lib/js/app.js"></script>
 </body>
 </html>

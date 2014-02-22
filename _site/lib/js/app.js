@@ -1,16 +1,10 @@
 (function($){
 	var welcome = {
 		'config' : {
-			'module' : $(""),
+
 		},
-                
 		'init' : function () {
-			var main = welcome.mainMethods();
-			main.setup();
-			
-			var ko = welcome.knockout()
-			ko.activate();
-			
+			$('#beyonceImage').hide();
 			if ($(window).width() > 320) {
 				$(".introduction__quote").hover(function() {
 					$(".quote__popover").fadeIn();
@@ -18,71 +12,60 @@
 					$(".quote__popover").fadeOut();
 				})
 			}
-			
-			
-		},
-		'knockout' : function () {
-			function welcomeKO() {
-				var self = this;
-				
-				function getRandom(min, max){
-					return Math.floor((Math.random()*max)+min);
-				}
-				
-				
-				self.selectedBeyonce = ko.observable();
-				
-				
-				self.beyonce = [
-					{
-						"bound" : -100,
-						"fake" : "-128 (-0.94%)",
-						"nickname" : "shit",
-						"pic" : "/lib/img/shit.gif"
-					},
-					{
-						"bound" : 0,
-						"fake" : "25 (+0.01%)",
-						"nickname" : "okay",
-						"pic" : "/lib/img/okay.gif"
-					},
-					{
-						"bound" : 100,
-						"fake" : "253 (+0.85%)",
-						"nickname" : "great",
-						"pic" : "/lib/img/great.gif"
+			var pathArray = window.location.pathname.split( '/' );
+			if(pathArray[pathArray.length - 1] == ""){
+				$.getJSON("s/homepage.json", function(currentData){
+					percentageChange = currentData["change"];
+					percentageText = "loading";
+					percentageImage = "loading";
+					percentageInteger = parseInt(percentageChange);
+					if(percentageInteger > 0 && percentageInteger <= 5){
+						$('#beyonceStatus').text("okay");
+						$('#beyonceImage').attr('src', 'lib/img/okay.gif');
+						$('#beyonceImage').show();
+					} else if(percentageInteger > 5){
+						$('#beyonceStatus').text("good");
+						$('#beyonceImage').attr('src', 'lib/img/great.gif');
+						$('#beyonceImage').show();
+					} else {
+						$('#beyonceStatus').text("shit");
+						$('#beyonceImage').attr('src', 'lib/img/shit.gif');
+						$('#beyonceImage').show();
 					}
-					
-				]
-				
-				var number = getRandom(self.beyonce[0].bound-10, self.beyonce[2].bound+100);
-				
-				self.currentMarket = ko.observable(number);
-				
+					$('#beyonceValue').text(percentageChange);
+				});
+			} else {
+				$.getJSON("api/" + pathArray[pathArray.length - 1] + ".json", function(currentData){
+					percentageChange = currentData["change"];
+					percentageText = "loading";
+					percentageImage = "loading";
+					percentageInteger = parseFloat(percentageChange);
+					if(percentageInteger > 0 && percentageInteger <= 10){
+						$('#beyonceStatus').text("okay");
+						$('#beyonceImage').attr('src', 'lib/img/okay.gif');
+						$('#beyonceImage').show();
+						$('#stock_name').hide();
+						$('#stock_name').text(pathArray[pathArray.length - 1].toUpperCase());
+						$('#stock_name').show();
+					} else if(percentageInteger > 10){
+						$('#beyonceStatus').text("good");
+						$('#beyonceImage').attr('src', 'lib/img/great.gif');
+						$('#beyonceImage').show();
+						$('#stock_name').hide();
+						$('#stock_name').text(pathArray[pathArray.length - 1].toUpperCase());
+						$('#stock_name').show();
+					} else {
+						$('#beyonceStatus').text("shit");
+						$('#beyonceImage').attr('src', 'lib/img/shit.gif');
+						$('#beyonceImage').show();
+						$('#stock_name').hide();
+						$('#stock_name').text(pathArray[pathArray.length - 1].toUpperCase());
+						$('#stock_name').show();
+					}
+					$('#beyonceValue').text(percentageChange + "%");
+				});
 			}
-			return {
-				activate: function () {
-					ko.applyBindings(new welcomeKO());
-				}
-			}
-		},
-		'mainMethods' : function () {
-			function fittype() {
-				$("#masthead").fitText(0.55);	
-			}     
-			
-			function beyPopover() {
-				//agh
-			}
-			
-			          
-			return {
-				setup: function () {
-				//	fittype();
-				},
-                                
-			};
-		}         
+		}
 	};
 	$(document).ready( function() {
 		welcome.init();
