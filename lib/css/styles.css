@@ -159,6 +159,9 @@ img {
 .data--main p {
 	color: #ccc;
 }
+#change {
+	font-size: .85em;
+}
 .market__data .great {
   color: #1ea50d;
 }
