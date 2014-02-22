@@ -174,6 +174,19 @@ img {
 .attribution__small {
   font-size: .75em;
 }
+.ticker__changer {
+  font-size: 1.5em;
+  border: none;
+  border-bottom: 1px dashed #666;
+  background: none;
+  outline: none;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.ticker__changer:focus {
+  outline: none;
+  border-bottom: 1px solid #666;
+}
+
 @media only screen and (min-width: 40em) {
   .site {
     margin: auto;
@@ -218,6 +231,11 @@ img {
   }
   #stock_name {
 	  font-weight: bold;
+  }
+  .quote__popover .ticker__changer {
+	  text-align: right;
+	  color: #ffdd03;
+	  margin-bottom: .25em;
   }
   .popover__try a {
 	  color: #ffdd03;
@@ -274,6 +292,11 @@ img {
   .introduction__quote {
     text-align: center;
     padding: 1em 1em 0;
+  }
+  .changer {
+      width: 100%;
+	  padding: 2em;
+	  border: 1px solid #ffdd03;
   }
 }
 @media print {
