@@ -89,14 +89,11 @@ a:hover {
 h3 + ul {
   margin-bottom: 1em;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 *,
 *:before,
 *:after {
+  margin: 0;
+  padding: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -128,27 +125,10 @@ hr {
 img {
   max-width: 100%;
 }
-.overlay {
-  *zoom: 1;
-  padding: 1.5em 0 3em;
-  height: 100%;
-}
-.overlay:before,
-.overlay:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.overlay:after {
-  clear: both;
-}
-.overlay:before,
-.overlay:after {
-  content: " ";
-  display: table;
-}
-.overlay:after {
-  clear: both;
+.social-media__panel {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
 .quote__popover p {
   line-height: 1.15;
@@ -166,18 +146,21 @@ img {
 .information__panel li {
   padding: 0 2em;
 }
-.control__panel {
-  position: absolute;
-  border: 10px solid red;
-  top: 0px;
-  left: 0px;
-}
 .market__data {
   font-size: 125%;
 }
 .market__data h1,
 .market__data h3 {
   margin-bottom: 0;
+}
+.data--main p, .data--main h3 {
+	display: inline;
+}
+.data--main p {
+	color: #ccc;
+}
+#change {
+	font-size: .85em;
 }
 .market__data .great {
   color: #1ea50d;
@@ -188,9 +171,22 @@ img {
 .attribution__magic {
   text-align: right;
 }
-.attribution__giphy {
+.attribution__small {
   font-size: .75em;
 }
+.ticker__changer {
+  font-size: 1.5em;
+  border: none;
+  border-bottom: 1px dashed #666;
+  background: none;
+  outline: none;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.ticker__changer:focus {
+  outline: none;
+  border-bottom: 1px solid #666;
+}
+
 @media only screen and (min-width: 40em) {
   .site {
     margin: auto;
@@ -220,6 +216,7 @@ img {
     color: #eeeeee;
     display: none;
     position: absolute;
+	z-index: 9999;
     top: 1em;
     right: 3em;
     padding: .25em 1em;
@@ -227,10 +224,25 @@ img {
   .quote__popover p {
     line-height: 1.15;
   }
-  .quote__popover p:last-child {
+  .popover__info {
     font-size: .75em;
     color: #666666;
     text-transform: uppercase;
+  }
+  #stock_name {
+	  font-weight: bold;
+  }
+  .quote__popover .ticker__changer {
+	  text-align: right;
+	  color: #ffdd03;
+	  margin-bottom: .25em;
+  }
+  .popover__try a {
+	  color: #ffdd03;
+	  font-style: normal;
+  }
+  .popover__try a:hover {
+	  text-decoration: none;
   }
   .information__panel {
     position: fixed;
@@ -281,6 +293,11 @@ img {
     text-align: center;
     padding: 1em 1em 0;
   }
+  .changer {
+      width: 100%;
+	  padding: 2em;
+	  border: 1px solid #ffdd03;
+  }
 }
 @media print {
   @page {
@@ -293,3 +310,4 @@ img {
     font-size: 12pt;
   }
 }
+

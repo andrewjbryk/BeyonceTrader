@@ -5,80 +5,89 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>BEY TRADER</title>
 	<meta name="viewport" content="width=device-width">
-
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="/lib/css/styles.css">
+	<link rel="stylesheet" href="lib/css/styles.css">
 	<meta name="description" content="Your daily market dose- from the female version of a hustla herself. By tech@NYU." />
-	<meta name="keywords" content="beyonce stock market today dow jones industrial average day trader" />
-		
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2" />
-		
+	<meta name="keywords" content="beyonce stock market today standard and poor 500 s&p 500 dow jones industrial average day trader pun" />
+	<meta property="og:image" content="http://beyoncetrader.com/lib/img/great.gif" />
+	<link rel="shortcut icon" type="image/x-icon" href="http://techatnyu.org/favicon.ico" />
 </head>
 <body>
-	<!--
-		TO DO: add social media, add analytics, add favicon
-	-->
-	
 	<ul class="grid">
 		<li class="half">
 			<div class="social-media__panel">
-				<p>SOCIAL MEDIA </p>
-			</div>
+		    	<div class="fb-like" data-href="http://beyoncetrader.com/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="How's the stock market, Beyoncé?" data-via="techatnyu" data-related="techatnyu" data-hashtags="beyoncetrader">Tweet</a>
+		    </div>
+>>>>>>> 887de0b44c290917126fe48d806ef717312582fe
 		</li>
 		<li class="half">
 			<div class="introduction__quote">
-				<i class="ion-help-circled active" data-pack="default" data-tags="question, ?"></i>
+				<a href="/"><i class="ion-help-circled active" data-pack="default" data-tags="question, ?"></i></a>
 				<div class="quote__popover">
 					<p>your daily market dose- from the female version of a hustla herself</p>
-					<p>.DJI Dow Jones Industrial Average</p>
+					
+					<input type="text" class="ticker__changer" placeholder="type ticker here" />
+					<p class="popover__info"><span id="stock_name">.INX S&amp;P 500</span> &bull; <em class="popover__try">try any ticker symbol <a href="/aapl">AAPL</a> <a href="/amzn">AMZN</a> <a href="/fb">FB</a> <a href="/goog">GOOG</a> <a href="/msft">MSFT</a></em></p>
 				</div>
 			</div>
 		</li>
 	</ul>
-	
-	<p class="introduction__quote mobile__only">How's the Dow Jones, Beyoncé?</p>
-	
-	<div class="control__panel">
-		<select data-bind="options: beyonce, optionsText: 'nickname', value: selectedBeyonce"></select>
-	</div>
-	
+
+	<p class="introduction__quote mobile__only">How's the stock market, Beyoncé?</p>
 	<div class="site">
-		
-		
-		
-		<!-- ko if: selectedBeyonce -->
-		<img data-bind="attr: {src: selectedBeyonce().pic}" />
-		
-		<!-- /ko -->
-	
+		<img id="beyonceImage" />
 	</div>
 
 	<ul class="grid information__panel">
 		<li class="half">
 			<article class="market__data">
-				<h3 data-bind="text: selectedBeyonce().nickname"></h3>
-				<h1 data-bind="text: selectedBeyonce().fake, attr: {class: selectedBeyonce().nickname}"></h1>
+				<div class="data--main"><p id="beyonceName">S&amp;P 500</p> <h3 id="beyonceStatus"></h3></div>
+				<h1 id="beyonceValue"><span id="price"></span> <span id="change"></span></h1>
 			</article>
 		</li>
 		<li class="half">
 
 			<footer class="attribution__magic">
-				<div class="attribution__names">Made by your homies at <a href="http://techatnyu.org/">tech@NYU</a> <a href="http://twitter.com/techatnyu"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a>
+				<div class="attribution__tnyu">Made by your homies at <a href="http://techatnyu.org/" target="_blank">tech@NYU</a> <a href="http://twitter.com/techatnyu" target="_blank"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a> <a href="https://www.facebook.com/TechatNYU" target="_blank"><i class="ion-social-facebook" data-pack="social" data-tags="like, post, share"></i></a>
 				</div>
-				<div class="attribution__giphy">
+				<div class="attribution__small">
 					<a href="http://twitter.com/andrewjbryk" target="_blank">Andrew</a> and
 					<a href="http://twitter.com/tcburning/" target="_blank">Terri</a> and
+					<a href="https://twitter.com/abhiagarwal" target="_blank">Abhi</a> and
 					<a href="http://twitter.com/grungerabbit" target="_blank">Cheryl</a> &bull;
-					<a href="http://drakeweather.com/">thx</a> &bull; <a href="http://giphy.com/search/beyonce">Beyoncé gifs from Giphy</a>
+					<a href="http://drakeweather.com/" target="_blank">thx</a> &bull; <a href="http://giphy.com/search/beyonce" target="_blank">Beyoncé gifs from Giphy</a>
 				</div>
 			</footer>
 		</li>
 	</ul>
+	<div class="changer mobile__only">
+		<input type="text" class="ticker__changer" placeholder="type ticker here" />
+		<p>Try any ticker symbol <a href="/aapl">AAPL</a> <a href="/amzn">AMZN</a> <a href="/fb">FB</a> <a href="/goog">GOOG</a> <a href="/msft">MSFT</a></p>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="lib/js/app.js"></script>
 	
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!-- Facebook SDK -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=641740299238380";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	<script src="/lib/js/jquery.js"></script>
-	<script src="/lib/js/knockout-3.0.0.js"></script>
-	<script src="/lib/js/jquery.fittext.js"></script>
-	<script src="/lib/js/app.js"></script>
+	  ga('create', 'UA-45437819-3', 'beyoncetrader.com');
+	  ga('send', 'pageview');
+
+	</script>
 </body>
 </html>
