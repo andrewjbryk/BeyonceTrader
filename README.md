@@ -1,3 +1,1 @@
-# BeyonceTrader
-
-[www.beyoncetrader.com](beyoncetrader.com)
+beyoncetrader.com
